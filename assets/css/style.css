@@ -23,13 +23,41 @@ a.nav-link {
     text-transform: lowercase;
 }
 
+footer {
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+
 /* ------------------------------------------------------ Color */
 
 .header-banner--text {
-    color: #fff;
+   color:rgb(255, 255, 255);
 }
 
 .header-banner--text:hover {
+    color: rgba(255,255,255,0.75);
+    text-decoration: none;
+}
+
+
+.reviews-bg {
+ background-color: #f0f0f0;
+ height: 40vh;
+}
+
+.footer-bg {
+    background-color:rgb(52, 58, 64);
+}
+
+.footer-copyright-text,
+li.list-inline-item,
+.footer-location-text {
+    color: rgba(255,255,255,0.5);
+}
+
+li.list-inline-item:hover,
+.footer-location-text:hover {
     color: rgba(255,255,255,0.75);
     text-decoration: none;
 }
@@ -64,3 +92,36 @@ a.nav-link {
     margin-right: 20px;
     margin-left: 20px; 
 }
+
+/* ------------------------------------------------------ Footer */
+
+footer.container-fluid {
+    padding: 16px 100px;
+}
+
+.footer-copyright-text {
+    margin: 0;
+}
+
+
+.col-lg-6 ul.list-inline {
+    margin-bottom: 0;
+}
+
+li.list-inline-item {
+    padding: 0 8px;
+}
+
+@media (min-width: 992px) {
+.copyright-text-col {
+    margin-top: 16px;
+}
+}
+
+@media (max-width: 992px) {
+.copyright-text-col,
+.social-links-col {
+    margin-top: 12px;
+}
+}
+
