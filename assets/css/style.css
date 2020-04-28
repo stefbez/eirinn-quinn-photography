@@ -190,7 +190,7 @@ div.col-12 {
 }
 
 .bands-gigs-bg {
-    background: url("../images/sinka-camden.jpg") right top no-repeat;
+    background: url("../images/sinka-camden.jpg") right center no-repeat;
     min-height: 60vh;
     background-size: cover;
     -webkit-background-size: cover;
