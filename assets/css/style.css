@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Allura|Montserrat:100,200,300,400,500,600,700,800,900|Muli:200,300,400,500,600,700,800,900&display=swap');
 
-
 /* ------------------------------------------------------ Text/Font */
 
 .header-banner--text {
@@ -29,6 +28,28 @@ footer {
     letter-spacing: 2px;
 }
 
+.selling-title {
+    font-family: "Muli", sans-serif;
+    font-size: 48px;
+    word-spacing: -5px;
+}
+
+.bands-gigs-title,
+.album-artwork-title,
+.portraits-title {
+    font-family: "Muli", sans-serif;
+    font-size: 60px;
+    word-spacing: -5px;
+}
+
+.selling-paragraph {
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    letter-spacing: 2px;
+    word-spacing: 1px;
+    font-weight: 100;
+}
+
 /* ------------------------------------------------------ Color */
 
 .header-banner--text {
@@ -40,6 +61,23 @@ footer {
     text-decoration: none;
 }
 
+.selling-title,
+.selling-paragraph,
+.bands-gigs-title,
+.album-artwork-title,
+.portraits-title {
+    color: rgb(161, 163, 166)
+}
+
+.selling-paragraph,
+.selling-title {
+    background-color: rgba(0, 0, 0, 0.6)
+}
+
+.bg-box-titles {
+    background-color: rgba(0, 0, 0, 0.6);
+    line-height: 75px;
+}
 
 .reviews-bg {
  background-color: #f0f0f0;
@@ -53,7 +91,7 @@ footer {
 .footer-copyright-text,
 li.list-inline-item,
 .footer-location-text {
-    color: rgba(255,255,255,0.5);
+    color: rgb(161, 163, 166)
 }
 
 li.list-inline-item:hover,
@@ -93,6 +131,105 @@ a.nav-link {
     margin-left: 20px; 
 }
 
+/* ------------------------------------------------------ Home */
+
+.selling-bg,
+.bands-gigs-bg,
+.portraits-bg,
+.album-artwork-bg {
+    margin-bottom: 0;
+}
+
+.selling-bg {
+    background: url("../images/sinka-oneils.jpg") center top no-repeat fixed;
+    min-height: 60vh;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+.selling-paragraph {
+    margin-bottom: 16px;
+}
+
+.selling-title {
+    hyphens: none;
+    margin-bottom: 0;
+    margin-top: 16px;
+}
+
+@media (min-width: 768px) {
+    .selling-paragraph {
+        font-size: 36px;
+    }
+   .container-fluid.selling-bg {
+        padding: 0 20%;
+    }
+    .selling-title {
+        font-size: 60px;
+    }
+    .bands-gigs-title,
+    .album-artwork-title,
+    .portraits-title {
+        font-size: 72px;
+    }
+}
+
+@media (max-width: 576px) { 
+    .selling-title {
+        hyphens: manual;
+    }
+}
+
+div.col-12 {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.bands-gigs-bg {
+    background: url("../images/sinka-camden.jpg") right top no-repeat;
+    min-height: 60vh;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    justify-content: center;
+    position: relative;
+}
+
+.album-artwork-bg {
+    background: url("../images/islands.jpg") center bottom no-repeat;
+    min-height: 60vh;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+.portraits-bg {
+    background: url("../images/katie.jpg") 46% 35% no-repeat;
+    min-height: 60vh;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+.bands-gigs-title,
+.album-artwork-title,
+.portraits-title {
+    margin: 16px;
+}
+
+
+/* ------------------------------------------------------ Portfolio */
+
+/* ------------------------------------------------------ About Me */
+
+/* ------------------------------------------------------ Contact */
+
 /* ------------------------------------------------------ Footer */
 
 footer.container-fluid {
@@ -125,3 +262,9 @@ li.list-inline-item {
 }
 }
 
+
+/* * {
+  background: #000 !important;
+  color: #0f0 !important;
+  outline: solid #f00 1px !important;
+} */
