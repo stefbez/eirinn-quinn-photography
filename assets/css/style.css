@@ -22,7 +22,7 @@ a.nav-link {
     text-transform: lowercase;
 }
 
-footer {
+.footer-text {
     font-family: "Montserrat", sans-serif;
     font-size: 18px;
     letter-spacing: 2px;
@@ -49,6 +49,15 @@ footer {
     word-spacing: 1px;
     font-weight: 100;
 }
+
+.blockquote.reviews-text {
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    letter-spacing: 2px;
+    word-spacing: 1px;
+    font-weight: 200;
+}
+
 
 /* ------------------------------------------------------ Color */
 
@@ -80,8 +89,7 @@ footer {
 }
 
 .reviews-bg {
- background-color: #f0f0f0;
- height: 40vh;
+ background-color: rgb(200, 200, 200);
 }
 
 .footer-bg {
@@ -223,7 +231,31 @@ div.col-12 {
     margin: 16px;
 }
 
+/* ------------------------------------------------------ Reviews */
 
+
+.reviews-inner {
+    display: flex;
+    align-items: center;
+    min-height: 60vh;
+}
+
+@media (min-width: 576px) { 
+    .reviews-inner {
+        min-height: 40vh;
+    }
+}
+
+.reviews-text {
+    padding: 0 12px;
+}
+.carousel-control-next {
+    right: -10px;
+}
+
+.carousel-control-prev {
+    left: -10px;
+}
 /* ------------------------------------------------------ Portfolio */
 
 /* ------------------------------------------------------ About Me */
@@ -261,10 +293,3 @@ li.list-inline-item {
     margin-top: 12px;
 }
 }
-
-
-/* * {
-  background: #000 !important;
-  color: #0f0 !important;
-  outline: solid #f00 1px !important;
-} */
