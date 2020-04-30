@@ -1,39 +1,49 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
+#Eirinn Quinn Photography
+##Milestone Project 1
 
-Welcome stefbez,
+As part of the Code Institute Full Stack Developer Diploma I have created this website using all of the technologies learnt throughout the course so far.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project.
+This website showcases the very best work of a talented band photographer, Eirinn Quinn. This website has been created so that bands looking for a photographer for their upcoming gigs and concerts, album artwork or looking to do a photoshoot and get portaits done can see her work and book her to work with them.
 
-## Gitpod Reminders
+The website has been created with her photography style in mind, lots of moody, black and white, and darker images are on show and the style of the website matches that perfectly.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+##UX
 
-`python3 -m http.server`
+##Features
 
-A blue button should appear to click: *Make Public*,
+##Technologies Used
 
-Another blue button should appear to click: *Open Browser*.
+##Testing
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+Once the [home page](https://stefbez.github.io/milestone-project-1/index.html) had been completed I tested it on multiple devices. 
+I work on a mac using OS X and the deployment of the website worked exactly as expected.
+I opened the webpage on android phone and it worked as expected. When I opened it on an iPhone I came across an issue with the `selling-bg` image. 
+After a bit of research I found that there is a known issue with iOS displaying `background-attachment: fixed`.
+I found a solution for this issue at (https://github.com/thesved/fixed-cover-background). 
+After reading and understanding what they had done to fix the issue I implemented their code and modified it slightly to work with my site. 
+I do not take credit for their work and have noted this in my css document around the code and in the credits section of the README.md document.
+The other option instead of keeping the same feature, so that it would display in an aesthetically pleasing way would be to remove `background-attachment: fixed` all togther.
 
-A blue button should appear to click: *Make Public*,
+##Deployment
 
-Another blue button should appear to click: *Open Browser*.
+##Credits
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the backend lessons.
+The below code in `style.css` was found [here](https://github.com/thesved/fixed-cover-background), used and edited to work with my page and to fix an error on iOS devices specified above.
+*I do not take credit for this work below and declare that it is not all my own work, but used as a solution for a common issue on iOS.*
 
-## Updates Since The Instructional Video
-
-We continually tweak and adjust this template to help give you the best experience. Here are the updates since the original video was made:
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
---------
-
-Happy coding!
+```css
+.selling-bg:after{
+      content:"";
+      position:fixed; /* stretch a fixed position to the whole screen */
+      top:0;
+      height:100vh; /* fix for mobile browser address bar appearing disappearing */
+      left:0;
+      right:0;
+      z-index: -1;  /* needed to keep in the background */
+      background: url(../images/sinka-oneils.jpg) center top no-repeat;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+}
+```
