@@ -1,5 +1,5 @@
-#Eirinn Quinn Photography
-##Milestone Project 1
+# Eirinn Quinn Photography
+## Milestone Project 1
 
 As part of the Code Institute Full Stack Developer Diploma I have created this website using all of the technologies learnt throughout the course so far.
 
@@ -7,13 +7,13 @@ This website showcases the very best work of a talented band photographer, Eirin
 
 The website has been created with her photography style in mind, lots of moody, black and white, and darker images are on show and the style of the website matches that perfectly.
 
-##UX
+## UX
 
-##Features
+## Features
 
-##Technologies Used
+## Technologies Used
 
-##Testing
+## Testing
 
 Once the [home page](https://stefbez.github.io/milestone-project-1/index.html) had been completed I tested it on multiple devices. 
 I work on a mac using OS X and the deployment of the website worked exactly as expected.
@@ -24,9 +24,9 @@ After reading and understanding what they had done to fix the issue I implemente
 I do not take credit for their work and have noted this in my css document around the code and in the credits section of the README.md document.
 The other option instead of keeping the same feature, so that it would display in an aesthetically pleasing way would be to remove `background-attachment: fixed` all togther.
 
-##Deployment
+## Deployment
 
-##Credits
+## Credits
 
 The below code in `style.css` was found [here](https://github.com/thesved/fixed-cover-background), used and edited to work with my page and to fix an error on iOS devices specified above.
 *I do not take credit for this work below and declare that it is not all my own work, but used as a solution for a common issue on iOS.*
