@@ -36,11 +36,13 @@ a.nav-link {
 
 .bands-gigs-title,
 .album-artwork-title,
-.portraits-title {
+.portraits-title,
+.page-heading {
     font-family: "Muli", sans-serif;
     font-size: 60px;
     word-spacing: -5px;
 }
+
 
 .selling-paragraph {
     font-family: "Montserrat", sans-serif;
@@ -48,6 +50,21 @@ a.nav-link {
     letter-spacing: 2px;
     word-spacing: 1px;
     font-weight: 100;
+}
+
+@media (min-width: 768px) {
+    .selling-paragraph {
+        font-size: 36px;
+    }
+    .selling-title {
+        font-size: 60px;
+    }
+    .bands-gigs-title,
+    .album-artwork-title,
+    .portraits-title,
+    .page-heading {
+        font-size: 72px;
+    }
 }
 
 .blockquote.reviews-text {
@@ -107,6 +124,33 @@ li.list-inline-item:hover,
     color: rgba(255,255,255,0.75);
     text-decoration: none;
 }
+
+.pages-bg,
+ {
+    background-color: rgb(200, 200, 200);
+}
+
+.page-heading {
+    color: rgb(52, 58, 64)
+}
+
+.hr-gray {
+    border: 0.5px solid rgb(52, 58, 64);
+}
+
+div.modal-content {
+    background: none;
+    border: none;
+}
+
+div#portfolioModal.modal.fade.show {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+button.close {
+    color: rgb(255, 255, 255)
+}
+
 /* ------------------------------------------------------ Header */
 
 .header-banner {
@@ -185,21 +229,11 @@ to fix an error on iOS devices. I have modified it slightly but do not claim thi
 }
 
 @media (min-width: 768px) {
-    .selling-paragraph {
-        font-size: 36px;
-    }
-   .container-fluid.selling-bg {
+    .container-fluid.selling-bg {
         padding: 0 20%;
     }
-    .selling-title {
-        font-size: 60px;
-    }
-    .bands-gigs-title,
-    .album-artwork-title,
-    .portraits-title {
-        font-size: 72px;
-    }
 }
+
 
 @media (max-width: 576px) { 
     .selling-title {
@@ -272,6 +306,74 @@ div.col-12 {
     left: -10px;
 }
 /* ------------------------------------------------------ Portfolio */
+
+.page-heading {
+    margin: 16px 0;
+}
+
+.hr-under-heading {
+    width: 30%;
+    border-radius: 0.5px;
+}
+
+.col-sm-6.col-md-4.col-lg-3.col-image-size {
+    padding: 0 6px;
+}
+
+.portfolio-img,
+.portfolio-img--carousel {
+    border-radius: 16px;
+    margin: 6px 0;
+}
+
+.portfolio-img--carousel {
+    max-height: 80vh;
+    object-fit: cover;
+}
+
+#sinka-shoot-7 {
+    object-position: center 30%;
+}
+
+button.close {
+    position: absolute;
+    top: -50px;
+    right: 0;
+    font-size: 30px;
+}
+
+@media (max-width: 576px) {
+.portfolio-img {
+    max-height: 30vh;
+    width: fit-content;
+    object-fit: cover;
+}
+}
+
+@media (min-width: 576px) {
+.portfolio-img {
+    max-height: 172px;
+    width: fit-content;
+    object-fit: cover;
+}
+}
+
+@media (min-width: 768px) {
+.portfolio-img {
+    max-height: 152px;
+    width: fit-content;
+    object-fit: cover;
+}
+}
+
+@media (min-width: 1200px) {
+.portfolio-img {
+    max-height: 182px;
+    width: fit-content;
+    object-fit: cover;
+}
+}
+
 
 /* ------------------------------------------------------ About Me */
 
