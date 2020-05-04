@@ -9,6 +9,10 @@ The website has been created with her photography style in mind, lots of moody, 
 
 ## UX
 
+The UX process was vital to creating a good website that could do it's designed purpose perfectly. The purpose of the project from the photographers side was to show off the types of photography that she does, to show off her best work and to be contactable for work. With all of this in mind the users experience and expectations could be guaged. 
+
+I used trello to create user stories that are relevant to what each type of user expects and wants from this type of website. The aim is to please every user that visits this site, make it easy to use and ultimately make them interested enough in the photographer's work that they get in contact.
+
 ## Features
 
 ## Technologies Used
