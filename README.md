@@ -32,7 +32,8 @@ The other option instead of keeping the same feature, so that it would display i
 
 ## Credits
 
-The below code in `style.css` was found [here](https://github.com/thesved/fixed-cover-background), used and edited to work with my page and to fix an error on iOS devices specified above.
+### Content
+* The below code in `style.css` was found [here](https://github.com/thesved/fixed-cover-background), used and edited to work with my page and to fix an error on iOS devices specified above.
 *I do not take credit for this work below and declare that it is not all my own work, but used as a solution for a common issue on iOS.*
 
 ```css
@@ -51,3 +52,6 @@ The below code in `style.css` was found [here](https://github.com/thesved/fixed-
       background-size: cover;
 }
 ```
+### Media
+
+* All images were taken and are owned by Eirinn Quinn, who gave me the inspiration to make the website
