@@ -1,6 +1,8 @@
 # Eirinn Quinn Photography
 ## Milestone Project 1
 
+The project can be found [here](https://stefbez.github.io/eirinn-quinn-photography/).
+
 As part of the Code Institute Full Stack Developer Diploma I have created this website using all of the technologies learnt throughout the course so far.
 
 This website showcases the very best work of a talented band photographer, Eirinn Quinn. This website has been created so that bands looking for a photographer for their upcoming gigs and concerts, album artwork or looking to do a photoshoot and get portaits done can see her work and book her to work with them.
@@ -29,6 +31,8 @@ I do not take credit for their work and have noted this in my css document aroun
 The other option instead of keeping the same feature, so that it would display in an aesthetically pleasing way would be to remove `background-attachment: fixed` all togther.
 
 ## Deployment
+
+The website can be found on the link at the top of the page and [here](https://stefbez.github.io/eirinn-quinn-photography/). I deployed the project using GitHub Pages. At the moment the deployed version uses the master branch, but if future updates are needed these can be done using a separate branch until all updates are tested thoroughly and can be deployed.
 
 ## Credits
 
