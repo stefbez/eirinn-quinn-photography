@@ -1,6 +1,8 @@
 # Eirinn Quinn Photography
 ## Milestone Project 1
 
+The project can be found [here](https://stefbez.github.io/eirinn-quinn-photography/).
+
 As part of the Code Institute Full Stack Developer Diploma I have created this website using all of the technologies learnt throughout the course so far.
 
 This website showcases the very best work of a talented band photographer, Eirinn Quinn. This website has been created so that bands looking for a photographer for their upcoming gigs and concerts, album artwork or looking to do a photoshoot and get portaits done can see her work and book her to work with them.
@@ -9,7 +11,23 @@ The website has been created with her photography style in mind, lots of moody, 
 
 ## UX
 
+The UX process was vital to creating a good website that could do it's designed purpose perfectly. The purpose of the project from the photographers side was to show off the types of photography that she does, to show off her best work and to be contactable for work. With all of this in mind the users experience and expectations could be guaged. 
+
+I used trello to create user stories that are relevant to what each type of user expects and wants from this type of website. The aim is to please every user that visits this site, make it easy to use and ultimately make them interested enough in the photographer's work that they get in contact.
+
 ## Features
+
+### Current Features
+
+* Header image with website name allows all users to know what site they're on, remember the name and also link back to the home page easily.
+* Navbar allows all users to easily navigate the site whether on mobile, tablet or desktop.
+* The location in the footer allows potential customers to see where Eirinn is based and if her location is close enough for them to work together, using a link to google maps allows potential customers the ease to see where she is located.
+* Social links in the footer allow social media users and potential customers the ability to follow, add or join her pages and see updates as she posts them which could create more business for her.
+* Home page headers and images allow all users entering the site to quickly understand the type of work that Eirinn does to see if she is the right type of photographer for them.
+* The reviews on the carousel allow potential customers the chance to see what multiple previous customers think of her work without having to scroll through multiple pages of reviews.
+* The gallery on the portfolio page allows potential customers the chance to see a selection of her best work which allows them to decide if they like her work enough to work with her.
+* The Modal Carousel allows users to see the full image and get a better view of the images displayed in the gallery.
+
 
 ## Technologies Used
 
@@ -26,9 +44,12 @@ The other option instead of keeping the same feature, so that it would display i
 
 ## Deployment
 
+The website can be found on the link at the top of the page and [here](https://stefbez.github.io/eirinn-quinn-photography/). I deployed the project using GitHub Pages. At the moment the deployed version uses the master branch, but if future updates are needed these can be done using a separate branch until all updates are tested thoroughly and can be deployed.
+
 ## Credits
 
-The below code in `style.css` was found [here](https://github.com/thesved/fixed-cover-background), used and edited to work with my page and to fix an error on iOS devices specified above.
+### Content
+* The below code in `style.css` was found [here](https://github.com/thesved/fixed-cover-background), used and edited to work with my page and to fix an error on iOS devices specified above.
 *I do not take credit for this work below and declare that it is not all my own work, but used as a solution for a common issue on iOS.*
 
 ```css
@@ -47,3 +68,6 @@ The below code in `style.css` was found [here](https://github.com/thesved/fixed-
       background-size: cover;
 }
 ```
+### Media
+
+* All images were taken and are owned by Eirinn Quinn, who gave me the inspiration to make the website
