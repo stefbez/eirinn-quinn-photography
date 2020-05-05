@@ -17,6 +17,18 @@ I used trello to create user stories that are relevant to what each type of user
 
 ## Features
 
+### Current Features
+
+* Header image with website name allows all users to know what site they're on, remember the name and also link back to the home page easily.
+* Navbar allows all users to easily navigate the site whether on mobile, tablet or desktop.
+* The location in the footer allows potential customers to see where Eirinn is based and if her location is close enough for them to work together, using a link to google maps allows potential customers the ease to see where she is located.
+* Social links in the footer allow social media users and potential customers the ability to follow, add or join her pages and see updates as she posts them which could create more business for her.
+* Home page headers and images allow all users entering the site to quickly understand the type of work that Eirinn does to see if she is the right type of photographer for them.
+* The reviews on the carousel allow potential customers the chance to see what multiple previous customers think of her work without having to scroll through multiple pages of reviews.
+* The gallery on the portfolio page allows potential customers the chance to see a selection of her best work which allows them to decide if they like her work enough to work with her.
+* The Modal Carousel allows users to see the full image and get a better view of the images displayed in the gallery.
+
+
 ## Technologies Used
 
 ## Testing
