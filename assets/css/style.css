@@ -75,6 +75,13 @@ a.nav-link {
     font-weight: 200;
 }
 
+.about-me-text {
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    word-spacing: 1px;
+    font-weight: 200;
+}
+
 
 /* ------------------------------------------------------ Color */
 
@@ -105,6 +112,7 @@ a.nav-link {
     line-height: 75px;
 }
 
+.pages-bg,
 .reviews-bg {
  background-color: rgb(200, 200, 200);
 }
@@ -125,11 +133,6 @@ li.list-inline-item:hover,
     text-decoration: none;
 }
 
-.pages-bg,
- {
-    background-color: rgb(200, 200, 200);
-}
-
 .page-heading {
     color: rgb(52, 58, 64)
 }
@@ -147,6 +150,7 @@ div#portfolioModal.modal.fade.show {
     background-color: rgba(0, 0, 0, 0.6);
 }
 
+/* Modal close button */
 button.close {
     color: rgb(255, 255, 255)
 }
@@ -376,6 +380,39 @@ button.close {
 
 
 /* ------------------------------------------------------ About Me */
+
+#about-me-img {
+    border-radius: 50%;
+    max-width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    padding: 16px;
+}
+
+.about-me-text {
+    margin: 12px;
+}
+
+@media (min-width: 1200px) {
+    #about-me-text--left {
+        text-align: right;
+        float: right;
+        width: 85%;
+    }
+    #about-me-text--right {
+        text-align: left;
+        width: 85%;
+    }
+    #about-me-img {
+        border-radius: 0;
+        max-width: 100%;
+        height: 60vh;
+        object-fit: cover;
+        padding: 10%;
+        max-height: none;
+        object-position: 40%;
+    }
+}
 
 /* ------------------------------------------------------ Contact */
 
