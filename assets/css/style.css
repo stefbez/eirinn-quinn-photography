@@ -458,7 +458,7 @@ button.close {
 /* ------------------------------------------------------ Footer */
 
 footer.container-fluid {
-    padding: 16px 100px;
+    padding: 16px 0;
 }
 
 .footer-copyright-text {
@@ -474,6 +474,10 @@ li.list-inline-item {
     padding: 0 8px;
 }
 
+div.footer-row {
+    margin: 0;
+}
+
 @media (min-width: 992px) {
 .copyright-text-col {
     margin-top: 16px;
@@ -484,5 +488,11 @@ li.list-inline-item {
 .copyright-text-col,
 .social-links-col {
     margin-top: 12px;
+}
+}
+
+@media (min-width: 992px) {
+footer.container-fluid {
+    padding: 16px 100px;
 }
 }
