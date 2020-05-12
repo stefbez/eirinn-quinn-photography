@@ -180,6 +180,12 @@ textarea.form-control {
     background-size: cover;
 }
 
+@media (min-width: 576px) {
+.container-fluid.header-banner {
+    padding-left: 30px;
+}
+}
+
 /* ------------------------------------------------------ Navbar */
 
 nav.navbar {
