@@ -246,6 +246,8 @@ to fix an error on iOS devices. I have modified it slightly but do not claim thi
 
 .selling-title {
     hyphens: none;
+    -webkit-hyphens: none;
+    -moz-hyphens: none;
     margin-bottom: 0;
     margin-top: 16px;
 }
@@ -260,6 +262,8 @@ to fix an error on iOS devices. I have modified it slightly but do not claim thi
 @media (max-width: 319px) { 
     .selling-title {
         hyphens: manual;
+        -webkit-hyphens: manual;
+        -moz-hyphens: manual;
     }
 }
 
