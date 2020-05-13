@@ -262,7 +262,7 @@ to fix an error on iOS devices. I have modified it slightly but do not claim thi
 }
 
 
-@media (max-width: 576px) { 
+@media (max-width: 319px) { 
     .selling-title {
         hyphens: manual;
     }
