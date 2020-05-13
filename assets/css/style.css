@@ -301,6 +301,12 @@ div.col-12 {
     -o-background-size: cover;
 }
 
+@media (min-width: 992px) { 
+    .portraits-bg {
+        height: 80vh;
+    }
+}
+
 .bands-gigs-title,
 .album-artwork-title,
 .portraits-title {
