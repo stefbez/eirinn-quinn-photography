@@ -105,6 +105,8 @@ The website can be found on the link at the top of the page and [here](https://s
 
 * The footer needed to be pushed down to the bottom on some screen sizes, such as iPad pro. I found a way to do this through some research online and used [https://www.freecodecamp.org/news/how-to-keep-your-footer-where-it-belongs-59c6aa05c59c/](https://www.freecodecamp.org/news/how-to-keep-your-footer-where-it-belongs-59c6aa05c59c/) to fix this issue. The code used from this website is not my own work, but a solution to a problem I was having.
 
+* The info and code needed to hyphenate the word 'Photography' on the home page was found here [https://developer.mozilla.org/en-US/docs/Web/CSS/hyphens](https://developer.mozilla.org/en-US/docs/Web/CSS/hyphens)
+
 * [Bootstrap](https://getbootstrap.com/docs/4.4/getting-started/introduction/) was used throughout the site, including the [carousel](https://getbootstrap.com/docs/4.2/components/carousel/) for the home and portfolio page; [modal](https://getbootstrap.com/docs/4.4/components/modal/) for the portfolio page and the [forms](https://getbootstrap.com/docs/4.4/components/forms/) and [submit button](https://getbootstrap.com/docs/4.4/components/buttons/) on the contact page.
 
 * [Font Awesome](https://fontawesome.com/icons?d=gallery) icons were used in the footer of every page and the envelope icon on the contact page
