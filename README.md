@@ -15,6 +15,22 @@ The UX process was vital to creating a good website that could do it's designed 
 
 I used trello to create user stories that are relevant to what each type of user expects and wants from this type of website. The aim is to please every user that visits this site, make it easy to use and ultimately make them interested enough in the photographer's work that they get in contact.
 
+### User stories
+
+* As a user I want to see if the photographer is local to me before contacting so that I don't waste time enquiring if they are too far away
+* As a user I want an easy to use navigation bar to see all parts of the website with ease
+* As a user I want to see what the photographer has to offer from the first look of the home page so that I'm drawn in to look at the rest of the website
+* As a user I want to read about the photographer to see if I want to work with them
+* As a user and social media user I want to explore the photographers social media to see more about the photographer and their work
+* As a user I want to explore a gallery of the photographers work to see what the photographer could offer me if I hire
+* As a user I want to be able to contact the photographer to discuss hiring
+
+These user stories justify every section of the site and forced a slight change in design from the original mockups. The footer now features a location link to google maps whereas the mockup didnt consider this.
+
+### Mockups
+
+
+
 ## Features
 
 ### Current Features
@@ -49,7 +65,7 @@ The website can be found on the link at the top of the page and [here](https://s
 ## Credits
 
 ### Content
-* The below code in `style.css` was found [here](https://github.com/thesved/fixed-cover-background), used and edited to work with my page and to fix an error on iOS devices specified above.
+* The below code in `style.css` was found at [https://github.com/thesved/fixed-cover-background](https://github.com/thesved/fixed-cover-background), used and edited to work with my page and to fix an error on iOS devices specified above.
 *I do not take credit for this work below and declare that it is not all my own work, but used as a solution for a common issue on iOS.*
 
 ```css
@@ -68,6 +84,11 @@ The website can be found on the link at the top of the page and [here](https://s
       background-size: cover;
 }
 ```
+
+* The footer needed to be pushed down to the bottom on some screen sizes, such as iPad pro. I found a way to do this through some research online and used 
+[https://www.freecodecamp.org/news/how-to-keep-your-footer-where-it-belongs-59c6aa05c59c/](https://www.freecodecamp.org/news/how-to-keep-your-footer-where-it-belongs-59c6aa05c59c/)
+to fix this issue. The code used from this website is not my own work, but a solution to a problem I was having.
+
 ### Media
 
 * All images were taken and are owned by Eirinn Quinn, who gave me the inspiration to make the website
