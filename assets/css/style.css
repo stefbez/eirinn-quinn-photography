@@ -481,6 +481,48 @@ button.close {
 
 /* ------------------------------------------------------ Footer */
 
+/* Push footer to bottom of page - code for this found here 
+https://www.freecodecamp.org/news/how-to-keep-your-footer-where-it-belongs-59c6aa05c59c/ 
+adapted for my pages but not my own work. */
+
+.page-container {
+    position: relative;
+    min-height: 100vh;
+}
+
+.content-container {
+    padding-bottom: 137px;
+}
+
+.footer-bottom {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 137px;
+}
+
+@media (min-width: 992px) {
+    .footer-bottom {
+    height: 102px;
+}
+.content-container {
+    padding-bottom: 102px;
+}
+}
+
+@media (max-width: 371px) {
+    .footer-bottom {
+    height: 164px;
+}
+.content-container {
+    padding-bottom: 164px;
+}
+}
+
+/* The above code was found here - 
+https://www.freecodecamp.org/news/how-to-keep-your-footer-where-it-belongs-59c6aa05c59c/
+adapted for my pages. */
+
 footer.container-fluid {
     padding: 16px 0;
 }
