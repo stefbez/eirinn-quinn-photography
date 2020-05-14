@@ -22,124 +22,192 @@
 
   <body class="pages-bg">
     <!-- Push footer to bottom -->
-  <div class="page-container">
-  <div class="content-container">
-    <!-- Header and navbar -->
-    <header>
-      <div class="container-fluid header-banner">
-			<a href="index.html" class="header-banner--text">Eirinn<br> Quinn<br>
-				<span class="header-banner--photography-text"> Photography</span></a>
-		</div>
-      <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav text-center mx-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="index.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="about.html">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="portfolio.html">Portfolio</a>
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="contact.html"
-                >Contact<span class="sr-only">(current)</span></a
+    <div class="page-container">
+      <div class="content-container">
+        <!-- Header and navbar -->
+        <header>
+          <div class="container-fluid header-banner">
+            <a href="index.html" class="header-banner--text"
+              >Eirinn<br />
+              Quinn<br />
+              <span class="header-banner--photography-text">
+                Photography</span
+              ></a
+            >
+          </div>
+          <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav text-center mx-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="portfolio.html">Portfolio</a>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link" href="contact.html"
+                    >Contact<span class="sr-only">(current)</span></a
+                  >
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </header>
+        <!-- ./header and navbar -->
+        <!-- Title -->
+        <h1 class="page-heading text-center">Contact</h1>
+        <hr class="hr-under-heading hr-gray" />
+        <!-- ./title -->
+        <div class="container">
+          <section class="text-center">
+            <i class="far fa-envelope"></i>
+            <p class="contact-text">
+              Please feel free to contact me regarding any work, I endevour to
+              get back to you within 3 working days.
+            </p>
+          </section>
+        </div>
+        <!-- Contact form -->
+        <div class="container">
+          <form class="contact-form">
+            <div class="form-group form-group--small">
+              <label class="text-center w-100" for="name">Name</label>
+              <input
+                type="text"
+                class="form-control"
+                id="name"
+                placeholder="Name"
+                required
+              />
+            </div>
+            <div class="form-group form-group--small">
+              <label class="text-center w-100" for="email">Email Address</label>
+              <input
+                type="email"
+                class="form-control"
+                id="email"
+                placeholder="name@example.com"
+                required
+              />
+            </div>
+            <div class="form-group form-group--small">
+              <label class="text-center w-100" for="phone">Phone Number</label>
+              <input
+                type="tel"
+                class="form-control"
+                id="phone"
+                placeholder="07123456789"
+              />
+            </div>
+            <div class="form-group">
+              <label class="text-center w-100" for="event-text"
+                >Details of booking and any questions</label
               >
-            </li>
-          </ul>
+              <textarea
+                class="form-control"
+                id="event-text"
+                rows="5"
+              ></textarea>
+            </div>
+            <button
+              type="submit"
+              class="contact-form--submit btn btn-dark mx-auto d-block"
+            >
+              Submit
+            </button>
+          </form>
         </div>
-      </nav>
-    </header>
-    <!-- ./header and navbar -->
-    <!-- Title -->
-    <h1 class="page-heading text-center">Contact</h1>
-    <hr class="hr-under-heading hr-gray" />
-    <!-- ./title -->
-    <div class="container">
-    <section class="text-center">
-    <i class="far fa-envelope"></i>
-    <p class="contact-text">Please feel free to contact me regarding any work, I endevour to get back to you within 3 working days.</p>
-    </section>
-    </div>
-    <!-- Contact form -->
-    <div class="container">
-    <form class="contact-form">
-  <div class="form-group form-group--small">
-    <label class="text-center w-100" for="name">Name</label>
-    <input type="text" class="form-control" id="name" placeholder="Name" required>
-  </div>
-  <div class="form-group form-group--small">
-    <label class="text-center w-100" for="email">Email Address</label>
-    <input type="email" class="form-control" id="email" placeholder="name@example.com" required>
-  </div>
-  <div class="form-group form-group--small">
-    <label class="text-center w-100" for="phone">Phone Number</label>
-    <input type="tel" class="form-control" id="phone" placeholder="07123456789">
-  </div>
-   <div class="form-group">
-    <label class="text-center w-100" for="event-text">Details of booking and any questions</label>
-    <textarea class="form-control" id="event-text" rows="5"></textarea>
-  </div>
-  <button type="submit" class="contact-form--submit btn btn-dark mx-auto d-block">Submit</button>
-</form>
-    </div>
-    <!-- ./contact form -->
-  </div>
-    <!-- Footer -->
-    <footer class="container-fluid footer-text footer-bg footer-bottom">
-      <div class="row footer-row">
-        <div class="col-lg-6 col-xs-12 text-lg-left text-center">
-          <a
-            href="https://goo.gl/maps/g24eADUDJ49vew8K8"
-            target="_blank"
-            class="footer-location-text"
-            ><i class="fas fa-map-marker-alt"></i> Pinner, Middlesex</a
-          >
-        </div>
-        <div
-          class="col-lg-6 col-xs-12 text-lg-right text-center social-links-col"
-        >
-          <ul class="list-inline footer-social-links">
-            <a href="https://facebook.com/" target="_blank"
-              ><li class="list-inline-item">
-                <i class="fab fa-facebook-f"></i></li
-            ></a>
-            <a href="https://instagram.com/" target="_blank"
-              ><li class="list-inline-item"><i class="fab fa-instagram"></i></li
-            ></a>
-            <a href="https://twitter.com/" target="_blank"
-              ><li class="list-inline-item"><i class="fab fa-twitter"></i></li
-            ></a>
-            <a href="https://flickr.com/" target="_blank"
-              ><li class="list-inline-item"><i class="fab fa-flickr"></i></li
-            ></a>
-            <a href="https://snapchat.com/add/eirinnquinnphoto" target="_blank"
-              ><li class="list-inline-item">
-                <i class="fab fa-snapchat-ghost"></i></li
-            ></a>
-          </ul>
-        </div>
-        <div class="col-12 copyright-text-col text-center">
-          <p class="footer-copyright-text">
-            <i class="far fa-copyright"></i> Eirinn Quinn Photography 2020
-          </p>
-        </div>
+        <!-- ./contact form -->
       </div>
-    </footer>
-    <!-- ./footer -->
-  </div>
+      <!-- Footer -->
+      <footer class="container-fluid footer-text footer-bg footer-bottom">
+        <div class="row footer-row">
+          <div class="col-lg-6 col-xs-12 text-lg-left text-center">
+            <a
+              href="https://goo.gl/maps/g24eADUDJ49vew8K8"
+              target="_blank"
+              class="footer-location-text"
+              ><i class="fas fa-map-marker-alt"></i> Pinner, Middlesex</a
+            >
+          </div>
+          <div
+            class="col-lg-6 col-xs-12 text-lg-right text-center social-links-col"
+          >
+            <ul class="list-inline">
+              <li class="list-inline-item">
+                <a
+                  href="https://facebook.com/"
+                  class="footer-social-links"
+                  target="_blank"
+                >
+                  <i class="fab fa-facebook-f"></i
+                ></a>
+              </li>
+
+              <li class="list-inline-item">
+                <a
+                  href="https://instagram.com/"
+                  class="footer-social-links"
+                  target="_blank"
+                >
+                  <i class="fab fa-instagram"></i
+                ></a>
+              </li>
+
+              <li class="list-inline-item">
+                <a
+                  href="https://twitter.com/"
+                  class="footer-social-links"
+                  target="_blank"
+                >
+                  <i class="fab fa-twitter"></i
+                ></a>
+              </li>
+
+              <li class="list-inline-item">
+                <a
+                  href="https://flickr.com/"
+                  class="footer-social-links"
+                  target="_blank"
+                >
+                  <i class="fab fa-flickr"></i
+                ></a>
+              </li>
+
+              <li class="list-inline-item">
+                <a
+                  href="https://snapchat.com/add/eirinnquinnphoto"
+                  class="footer-social-links"
+                  target="_blank"
+                >
+                  <i class="fab fa-snapchat-ghost"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-12 copyright-text-col text-center">
+            <p class="footer-copyright-text">
+              <i class="far fa-copyright"></i> Eirinn Quinn Photography 2020
+            </p>
+          </div>
+        </div>
+      </footer>
+      <!-- ./footer -->
+    </div>
     <!-- js for navbar -->
     <script
       src="https://code.jquery.com/jquery-3.4.1.slim.min.js"

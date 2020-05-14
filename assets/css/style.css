@@ -129,12 +129,12 @@ i.far.fa-envelope {
 }
 
 .footer-copyright-text,
-li.list-inline-item,
+.footer-social-links,
 .footer-location-text {
     color: rgb(161, 163, 166)
 }
 
-li.list-inline-item:hover,
+.footer-social-links:hover,
 .footer-location-text:hover {
     color: rgba(255,255,255,0.75);
     text-decoration: none;

@@ -21,361 +21,434 @@
   </head>
 
   <body class="pages-bg">
-  <!-- Push footer to bottom -->
-  <div class="page-container">
-  <div class="content-container">
-    <!-- Header and navbar -->
-    <header>
-      <div class="container-fluid header-banner">
-			<a href="index.html" class="header-banner--text">Eirinn<br> Quinn<br>
-				<span class="header-banner--photography-text"> Photography</span></a>
-		</div>
-      <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav text-center mx-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="index.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="about.html">About</a>
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="portfolio.html"
-                >Portfolio<span class="sr-only">(current)</span></a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-    </header>
-    <!-- ./header and navbar -->
-    <!-- Title -->
-    <h1 class="page-heading text-center">Portfolio</h1>
-    <hr class="hr-under-heading hr-gray" />
-    <!-- ./title -->
-    <!-- Gallery -->
-    <div class="container">
-      <div class="row" data-target="#portfolioModal" data-toggle="modal">
-        <div class="col-sm-6 col-md-4 col-xl-3 col-image-size">
-          <a href="#portfolioCarousel" data-slide-to="0">
-            <img
-              class="img-fluid portfolio-img"
-              src="assets/images/sinka-band.jpg"
-              alt="Sinka Band shoot"
-          /></a>
-        </div>
-        <div class="col-sm-6 col-md-4 col-xl-3 col-image-size">
-          <a href="#portfolioCarousel" data-slide-to="1">
-            <img
-              class="img-fluid portfolio-img"
-              src="assets/images/car-2.jpg"
-              alt="Car steering wheel"
-          /></a>
-        </div>
-        <div class="col-sm-6 col-md-4 col-xl-3 col-image-size">
-          <a href="#portfolioCarousel" data-slide-to="2">
-            <img
-              class="img-fluid portfolio-img"
-              src="assets/images/sinka-shoot-2.jpg"
-              alt="Sinka Band shoot 2"
-          /></a>
-        </div>
-        <div class="col-sm-6 col-md-4 col-xl-3 col-image-size">
-          <a href="#portfolioCarousel" data-slide-to="3">
-            <img
-              class="img-fluid portfolio-img portfolio-img--lg portfolio-img--bottom"
-              src="assets/images/canada.jpg"
-              alt="Canada sky with lamppost"
-          /></a>
-        </div>
-        <div class="col-sm-6 col-md-4 col-xl-3 col-image-size">
-          <a href="#portfolioCarousel" data-slide-to="4">
-            <img
-              class="img-fluid portfolio-img portfolio-img--lg"
-              src="assets/images/charlie.jpg"
-              alt="Charlie from Sinka"
-          /></a>
-        </div>
-        <div class="col-sm-6 col-md-4 col-xl-3 col-image-size">
-          <a href="#portfolioCarousel" data-slide-to="5">
-            <img
-              class="img-fluid portfolio-img"
-              src="assets/images/islands.jpg"
-              alt="Islands"
-          /></a>
-        </div>
-        <div class="col-sm-6 col-md-4 col-xl-3 col-image-size">
-          <a href="#portfolioCarousel" data-slide-to="6">
-            <img
-              class="img-fluid portfolio-img"
-              src="assets/images/charlie-2.jpg"
-              alt="Charlie from Sinka 2"
-          /></a>
-        </div>
-        <div class="col-sm-6 col-md-4 col-xl-3 col-image-size">
-          <a href="#portfolioCarousel" data-slide-to="7">
-            <img
-              class="img-fluid portfolio-img"
-              src="assets/images/city-smoke.jpg"
-              alt="Smoke in the city"
-          /></a>
-        </div>
-        <div class="col-sm-6 col-md-4 col-xl-3 col-image-size">
-          <a href="#portfolioCarousel" data-slide-to="8">
-            <img
-              class="img-fluid portfolio-img"
-              src="assets/images/van.jpg"
-              alt="Vancouver"
-          /></a>
-        </div>
-        <div class="col-sm-6 col-md-4 col-xl-3 col-image-size">
-          <a href="#portfolioCarousel" data-slide-to="9">
-            <img
-              class="img-fluid portfolio-img"
-              src="assets/images/sinka-oneils.jpg"
-              alt="Sinka Band O'Neils"
-          /></a>
-        </div>
-        <div class="col-sm-6 col-md-4 col-xl-3 col-image-size">
-          <a href="#portfolioCarousel" data-slide-to="10">
-            <img
-              class="img-fluid portfolio-img"
-              src="assets/images/sinka-shoot-5.jpg"
-              alt="Sinka Band shoot 5"
-          /></a>
-        </div>
-        <div class="col-sm-6 col-md-4 col-xl-3 col-image-size">
-          <a href="#portfolioCarousel" data-slide-to="11">
-            <img
-              class="img-fluid portfolio-img"
-              id="sinka-shoot-7"
-              src="assets/images/sinka-shoot-7.jpg"
-              alt="Sinka Band shoot 7"
-          /></a>
-        </div>
-      </div>
-
-      <!-- Modal template from bootstrap -->
-      <div
-        class="modal fade"
-        id="portfolioModal"
-        tabindex="-1"
-        role="dialog"
-        aria-labelledby="exampleModalCenterTitle"
-        aria-hidden="true"
-      >
-        <div
-          class="modal-dialog modal-lg modal-dialog-centered"
-          role="document"
-        >
-          <div class="modal-content">
-            <button
-              type="button"
-              class="close"
-              data-dismiss="modal"
-              aria-label="Close"
+    <!-- Push footer to bottom -->
+    <div class="page-container">
+      <div class="content-container">
+        <!-- Header and navbar -->
+        <header>
+          <div class="container-fluid header-banner">
+            <a href="index.html" class="header-banner--text"
+              >Eirinn<br />
+              Quinn<br />
+              <span class="header-banner--photography-text">
+                Photography</span
+              ></a
             >
-              <span aria-hidden="true"
-                ><i class="fas fa-times-circle"></i
-              ></span>
+          </div>
+          <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="modal-body">
-              <!-- carousel template from bootstrap -->
-              <div id="portfolioCarousel" class="carousel slide carousel-fade">
-                <ol class="carousel-indicators">
-                  <li
-                    data-target="#portfolioCarousel"
-                    data-slide-to="0"
-                    class="active"
-                  ></li>
-                  <li data-target="#portfolioCarousel" data-slide-to="1"></li>
-                  <li data-target="#portfolioCarousel" data-slide-to="2"></li>
-                  <li data-target="#portfolioCarousel" data-slide-to="3"></li>
-                  <li data-target="#portfolioCarousel" data-slide-to="4"></li>
-                  <li data-target="#portfolioCarousel" data-slide-to="5"></li>
-                  <li data-target="#portfolioCarousel" data-slide-to="6"></li>
-                  <li data-target="#portfolioCarousel" data-slide-to="7"></li>
-                  <li data-target="#portfolioCarousel" data-slide-to="8"></li>
-                  <li data-target="#portfolioCarousel" data-slide-to="9"></li>
-                  <li data-target="#portfolioCarousel" data-slide-to="10"></li>
-                  <li data-target="#portfolioCarousel" data-slide-to="11"></li>
-                </ol>
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <img
-                      class="portfolio-img--carousel d-block w-100"
-                      src="assets/images/sinka-band.jpg"
-                      alt="Sinka Band shoot"
-                    />
-                  </div>
-                  <div class="carousel-item">
-                    <img
-                      class="portfolio-img--carousel d-block w-100"
-                      src="assets/images/car-2.jpg"
-                      alt="Car steering wheel"
-                    />
-                  </div>
-                  <div class="carousel-item">
-                    <img
-                      class="portfolio-img--carousel d-block w-100"
-                      src="assets/images/sinka-shoot-2.jpg"
-                      alt="Sinka Band shoot 2"
-                    />
-                  </div>
-                  <div class="carousel-item">
-                    <img
-                      class="portfolio-img--carousel d-block w-100"
-                      src="assets/images/canada.jpg"
-                      alt="Canada sky with lamppost"
-                    />
-                  </div>
-                  <div class="carousel-item">
-                    <img
-                      class="portfolio-img--carousel d-block w-100"
-                      src="assets/images/charlie.jpg"
-                      alt="Charlie from Sinka"
-                    />
-                  </div>
-                  <div class="carousel-item">
-                    <img
-                      class="portfolio-img--carousel d-block w-100"
-                      src="assets/images/islands.jpg"
-                      alt="Islands"
-                    />
-                  </div>
-                  <div class="carousel-item">
-                    <img
-                      class="portfolio-img--carousel d-block w-100"
-                      src="assets/images/charlie-2.jpg"
-                      alt="Charlie from Sinka 2"
-                    />
-                  </div>
-                  <div class="carousel-item">
-                    <img
-                      class="portfolio-img--carousel d-block w-100"
-                      src="assets/images/city-smoke.jpg"
-                      alt="Smoke in the city"
-                    />
-                  </div>
-                  <div class="carousel-item">
-                    <img
-                      class="portfolio-img--carousel d-block w-100"
-                      src="assets/images/van.jpg"
-                      alt="Vancouver"
-                    />
-                  </div>
-                  <div class="carousel-item">
-                    <img
-                      class="portfolio-img--carousel d-block w-100"
-                      src="assets/images/sinka-oneils.jpg"
-                      alt="Sinka Band O'Neils"
-                    />
-                  </div>
-                  <div class="carousel-item">
-                    <img
-                      class="portfolio-img--carousel d-block w-100"
-                      src="assets/images/sinka-shoot-5.jpg"
-                      alt="Sinka Band shoot 5"
-                    />
-                  </div>
-                  <div class="carousel-item">
-                    <img
-                      class="portfolio-img--carousel d-block w-100"
-                      src="assets/images/sinka-shoot-7.jpg"
-                      alt="Sinka Band shoot 7"
-                    />
-                  </div>
-                </div>
-                <a
-                  class="carousel-control-prev"
-                  href="#portfolioCarousel"
-                  role="button"
-                  data-slide="prev"
-                >
-                  <span
-                    class="carousel-control-prev-icon"
-                    aria-hidden="true"
-                  ></span>
-                  <span class="sr-only">Previous</span>
-                </a>
-                <a
-                  class="carousel-control-next"
-                  href="#portfolioCarousel"
-                  role="button"
-                  data-slide="next"
-                >
-                  <span
-                    class="carousel-control-next-icon"
-                    aria-hidden="true"
-                  ></span>
-                  <span class="sr-only">Next</span>
-                </a>
-              </div>
-              <!-- ./carousel -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav text-center mx-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link" href="portfolio.html"
+                    >Portfolio<span class="sr-only">(current)</span></a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </header>
+        <!-- ./header and navbar -->
+        <!-- Title -->
+        <h1 class="page-heading text-center">Portfolio</h1>
+        <hr class="hr-under-heading hr-gray" />
+        <!-- ./title -->
+        <!-- Gallery -->
+        <div class="container">
+          <div class="row" data-target="#portfolioModal" data-toggle="modal">
+            <div class="col-sm-6 col-md-4 col-xl-3 col-image-size">
+              <a href="#portfolioCarousel" data-slide-to="0">
+                <img
+                  class="img-fluid portfolio-img"
+                  src="assets/images/sinka-band.jpg"
+                  alt="Sinka Band shoot"
+              /></a>
+            </div>
+            <div class="col-sm-6 col-md-4 col-xl-3 col-image-size">
+              <a href="#portfolioCarousel" data-slide-to="1">
+                <img
+                  class="img-fluid portfolio-img"
+                  src="assets/images/car-2.jpg"
+                  alt="Car steering wheel"
+              /></a>
+            </div>
+            <div class="col-sm-6 col-md-4 col-xl-3 col-image-size">
+              <a href="#portfolioCarousel" data-slide-to="2">
+                <img
+                  class="img-fluid portfolio-img"
+                  src="assets/images/sinka-shoot-2.jpg"
+                  alt="Sinka Band shoot 2"
+              /></a>
+            </div>
+            <div class="col-sm-6 col-md-4 col-xl-3 col-image-size">
+              <a href="#portfolioCarousel" data-slide-to="3">
+                <img
+                  class="img-fluid portfolio-img portfolio-img--lg portfolio-img--bottom"
+                  src="assets/images/canada.jpg"
+                  alt="Canada sky with lamppost"
+              /></a>
+            </div>
+            <div class="col-sm-6 col-md-4 col-xl-3 col-image-size">
+              <a href="#portfolioCarousel" data-slide-to="4">
+                <img
+                  class="img-fluid portfolio-img portfolio-img--lg"
+                  src="assets/images/charlie.jpg"
+                  alt="Charlie from Sinka"
+              /></a>
+            </div>
+            <div class="col-sm-6 col-md-4 col-xl-3 col-image-size">
+              <a href="#portfolioCarousel" data-slide-to="5">
+                <img
+                  class="img-fluid portfolio-img"
+                  src="assets/images/islands.jpg"
+                  alt="Islands"
+              /></a>
+            </div>
+            <div class="col-sm-6 col-md-4 col-xl-3 col-image-size">
+              <a href="#portfolioCarousel" data-slide-to="6">
+                <img
+                  class="img-fluid portfolio-img"
+                  src="assets/images/charlie-2.jpg"
+                  alt="Charlie from Sinka 2"
+              /></a>
+            </div>
+            <div class="col-sm-6 col-md-4 col-xl-3 col-image-size">
+              <a href="#portfolioCarousel" data-slide-to="7">
+                <img
+                  class="img-fluid portfolio-img"
+                  src="assets/images/city-smoke.jpg"
+                  alt="Smoke in the city"
+              /></a>
+            </div>
+            <div class="col-sm-6 col-md-4 col-xl-3 col-image-size">
+              <a href="#portfolioCarousel" data-slide-to="8">
+                <img
+                  class="img-fluid portfolio-img"
+                  src="assets/images/van.jpg"
+                  alt="Vancouver"
+              /></a>
+            </div>
+            <div class="col-sm-6 col-md-4 col-xl-3 col-image-size">
+              <a href="#portfolioCarousel" data-slide-to="9">
+                <img
+                  class="img-fluid portfolio-img"
+                  src="assets/images/sinka-oneils.jpg"
+                  alt="Sinka Band O'Neils"
+              /></a>
+            </div>
+            <div class="col-sm-6 col-md-4 col-xl-3 col-image-size">
+              <a href="#portfolioCarousel" data-slide-to="10">
+                <img
+                  class="img-fluid portfolio-img"
+                  src="assets/images/sinka-shoot-5.jpg"
+                  alt="Sinka Band shoot 5"
+              /></a>
+            </div>
+            <div class="col-sm-6 col-md-4 col-xl-3 col-image-size">
+              <a href="#portfolioCarousel" data-slide-to="11">
+                <img
+                  class="img-fluid portfolio-img"
+                  id="sinka-shoot-7"
+                  src="assets/images/sinka-shoot-7.jpg"
+                  alt="Sinka Band shoot 7"
+              /></a>
             </div>
           </div>
-        </div>
-      </div>
-      <!-- ./modal -->
-    </div>
-    <!-- ./gallery -->
-</div>
-<!-- Footer -->
-    <footer class="container-fluid footer-text footer-bg footer-bottom">
-      <div class="row footer-row">
-        <div class="col-lg-6 col-xs-12 text-lg-left text-center">
-          <a
-            href="https://goo.gl/maps/g24eADUDJ49vew8K8"
-            target="_blank"
-            class="footer-location-text"
-            ><i class="fas fa-map-marker-alt"></i> Pinner, Middlesex</a
+
+          <!-- Modal template from bootstrap -->
+          <div
+            class="modal fade"
+            id="portfolioModal"
+            tabindex="-1"
+            role="dialog"
+            aria-labelledby="exampleModalCenterTitle"
+            aria-hidden="true"
           >
+            <div
+              class="modal-dialog modal-lg modal-dialog-centered"
+              role="document"
+            >
+              <div class="modal-content">
+                <button
+                  type="button"
+                  class="close"
+                  data-dismiss="modal"
+                  aria-label="Close"
+                >
+                  <span aria-hidden="true"
+                    ><i class="fas fa-times-circle"></i
+                  ></span>
+                </button>
+                <div class="modal-body">
+                  <!-- carousel template from bootstrap -->
+                  <div
+                    id="portfolioCarousel"
+                    class="carousel slide carousel-fade"
+                  >
+                    <ol class="carousel-indicators">
+                      <li
+                        data-target="#portfolioCarousel"
+                        data-slide-to="0"
+                        class="active"
+                      ></li>
+                      <li
+                        data-target="#portfolioCarousel"
+                        data-slide-to="1"
+                      ></li>
+                      <li
+                        data-target="#portfolioCarousel"
+                        data-slide-to="2"
+                      ></li>
+                      <li
+                        data-target="#portfolioCarousel"
+                        data-slide-to="3"
+                      ></li>
+                      <li
+                        data-target="#portfolioCarousel"
+                        data-slide-to="4"
+                      ></li>
+                      <li
+                        data-target="#portfolioCarousel"
+                        data-slide-to="5"
+                      ></li>
+                      <li
+                        data-target="#portfolioCarousel"
+                        data-slide-to="6"
+                      ></li>
+                      <li
+                        data-target="#portfolioCarousel"
+                        data-slide-to="7"
+                      ></li>
+                      <li
+                        data-target="#portfolioCarousel"
+                        data-slide-to="8"
+                      ></li>
+                      <li
+                        data-target="#portfolioCarousel"
+                        data-slide-to="9"
+                      ></li>
+                      <li
+                        data-target="#portfolioCarousel"
+                        data-slide-to="10"
+                      ></li>
+                      <li
+                        data-target="#portfolioCarousel"
+                        data-slide-to="11"
+                      ></li>
+                    </ol>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img
+                          class="portfolio-img--carousel d-block w-100"
+                          src="assets/images/sinka-band.jpg"
+                          alt="Sinka Band shoot"
+                        />
+                      </div>
+                      <div class="carousel-item">
+                        <img
+                          class="portfolio-img--carousel d-block w-100"
+                          src="assets/images/car-2.jpg"
+                          alt="Car steering wheel"
+                        />
+                      </div>
+                      <div class="carousel-item">
+                        <img
+                          class="portfolio-img--carousel d-block w-100"
+                          src="assets/images/sinka-shoot-2.jpg"
+                          alt="Sinka Band shoot 2"
+                        />
+                      </div>
+                      <div class="carousel-item">
+                        <img
+                          class="portfolio-img--carousel d-block w-100"
+                          src="assets/images/canada.jpg"
+                          alt="Canada sky with lamppost"
+                        />
+                      </div>
+                      <div class="carousel-item">
+                        <img
+                          class="portfolio-img--carousel d-block w-100"
+                          src="assets/images/charlie.jpg"
+                          alt="Charlie from Sinka"
+                        />
+                      </div>
+                      <div class="carousel-item">
+                        <img
+                          class="portfolio-img--carousel d-block w-100"
+                          src="assets/images/islands.jpg"
+                          alt="Islands"
+                        />
+                      </div>
+                      <div class="carousel-item">
+                        <img
+                          class="portfolio-img--carousel d-block w-100"
+                          src="assets/images/charlie-2.jpg"
+                          alt="Charlie from Sinka 2"
+                        />
+                      </div>
+                      <div class="carousel-item">
+                        <img
+                          class="portfolio-img--carousel d-block w-100"
+                          src="assets/images/city-smoke.jpg"
+                          alt="Smoke in the city"
+                        />
+                      </div>
+                      <div class="carousel-item">
+                        <img
+                          class="portfolio-img--carousel d-block w-100"
+                          src="assets/images/van.jpg"
+                          alt="Vancouver"
+                        />
+                      </div>
+                      <div class="carousel-item">
+                        <img
+                          class="portfolio-img--carousel d-block w-100"
+                          src="assets/images/sinka-oneils.jpg"
+                          alt="Sinka Band O'Neils"
+                        />
+                      </div>
+                      <div class="carousel-item">
+                        <img
+                          class="portfolio-img--carousel d-block w-100"
+                          src="assets/images/sinka-shoot-5.jpg"
+                          alt="Sinka Band shoot 5"
+                        />
+                      </div>
+                      <div class="carousel-item">
+                        <img
+                          class="portfolio-img--carousel d-block w-100"
+                          src="assets/images/sinka-shoot-7.jpg"
+                          alt="Sinka Band shoot 7"
+                        />
+                      </div>
+                    </div>
+                    <a
+                      class="carousel-control-prev"
+                      href="#portfolioCarousel"
+                      role="button"
+                      data-slide="prev"
+                    >
+                      <span
+                        class="carousel-control-prev-icon"
+                        aria-hidden="true"
+                      ></span>
+                      <span class="sr-only">Previous</span>
+                    </a>
+                    <a
+                      class="carousel-control-next"
+                      href="#portfolioCarousel"
+                      role="button"
+                      data-slide="next"
+                    >
+                      <span
+                        class="carousel-control-next-icon"
+                        aria-hidden="true"
+                      ></span>
+                      <span class="sr-only">Next</span>
+                    </a>
+                  </div>
+                  <!-- ./carousel -->
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- ./modal -->
         </div>
-        <div
-          class="col-lg-6 col-xs-12 text-lg-right text-center social-links-col"
-        >
-          <ul class="list-inline footer-social-links">
-            <a href="https://facebook.com/" target="_blank"
-              ><li class="list-inline-item">
-                <i class="fab fa-facebook-f"></i></li
-            ></a>
-            <a href="https://instagram.com/" target="_blank"
-              ><li class="list-inline-item"><i class="fab fa-instagram"></i></li
-            ></a>
-            <a href="https://twitter.com/" target="_blank"
-              ><li class="list-inline-item"><i class="fab fa-twitter"></i></li
-            ></a>
-            <a href="https://flickr.com/" target="_blank"
-              ><li class="list-inline-item"><i class="fab fa-flickr"></i></li
-            ></a>
-            <a href="https://snapchat.com/add/eirinnquinnphoto" target="_blank"
-              ><li class="list-inline-item">
-                <i class="fab fa-snapchat-ghost"></i></li
-            ></a>
-          </ul>
-        </div>
-        <div class="col-12 copyright-text-col text-center">
-          <p class="footer-copyright-text">
-            <i class="far fa-copyright"></i> Eirinn Quinn Photography 2020
-          </p>
-        </div>
+        <!-- ./gallery -->
       </div>
-    </footer>
-</div>
+      <!-- Footer -->
+      <footer class="container-fluid footer-text footer-bg footer-bottom">
+        <div class="row footer-row">
+          <div class="col-lg-6 col-xs-12 text-lg-left text-center">
+            <a
+              href="https://goo.gl/maps/g24eADUDJ49vew8K8"
+              target="_blank"
+              class="footer-location-text"
+              ><i class="fas fa-map-marker-alt"></i> Pinner, Middlesex</a
+            >
+          </div>
+          <div
+            class="col-lg-6 col-xs-12 text-lg-right text-center social-links-col"
+          >
+            <ul class="list-inline">
+              <li class="list-inline-item">
+                <a
+                  href="https://facebook.com/"
+                  class="footer-social-links"
+                  target="_blank"
+                >
+                  <i class="fab fa-facebook-f"></i
+                ></a>
+              </li>
+
+              <li class="list-inline-item">
+                <a
+                  href="https://instagram.com/"
+                  class="footer-social-links"
+                  target="_blank"
+                >
+                  <i class="fab fa-instagram"></i
+                ></a>
+              </li>
+
+              <li class="list-inline-item">
+                <a
+                  href="https://twitter.com/"
+                  class="footer-social-links"
+                  target="_blank"
+                >
+                  <i class="fab fa-twitter"></i
+                ></a>
+              </li>
+
+              <li class="list-inline-item">
+                <a
+                  href="https://flickr.com/"
+                  class="footer-social-links"
+                  target="_blank"
+                >
+                  <i class="fab fa-flickr"></i
+                ></a>
+              </li>
+
+              <li class="list-inline-item">
+                <a
+                  href="https://snapchat.com/add/eirinnquinnphoto"
+                  class="footer-social-links"
+                  target="_blank"
+                >
+                  <i class="fab fa-snapchat-ghost"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-12 copyright-text-col text-center">
+            <p class="footer-copyright-text">
+              <i class="far fa-copyright"></i> Eirinn Quinn Photography 2020
+            </p>
+          </div>
+        </div>
+      </footer>
+    </div>
     <!-- js for navbar, modal and carousel -->
     <script
       src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
