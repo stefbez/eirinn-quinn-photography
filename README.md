@@ -1,4 +1,5 @@
 # Eirinn Quinn Photography
+
 ## Milestone Project 1
 
 The project can be found [here](https://stefbez.github.io/eirinn-quinn-photography/).
@@ -69,10 +70,10 @@ After reading and understanding what they had done to fix the issue I implemente
 I do not take credit for their work and have noted this in my css document around the code and in the credits section of the README.md document.
 The other option instead of keeping the same feature, so that it would display in an aesthetically pleasing way would be to remove `background-attachment: fixed` all togther.
 
-Testing the home page once completed, the word 'photography' was still hyphenating on iPhone X and other mobile sized screens when using safari. Added ```-webkit-``` and ```-moz-``` variants so that it would work as expected on safari and firefox.
+Testing the home page once completed, the word 'photography' was still hyphenating on iPhone X and other mobile sized screens when using safari. Added `-webkit-` and `-moz-` variants so that it would work as expected on safari and firefox.
 
 Tested all HTML pages and CSS on the [HTML validator website](https://validator.w3.org/) and [CSS validator website](http://www.css-validator.org/). 
-A few small errors found, mainly with spacing. The biggest error found was in the footer of every page the ``` <li> ``` tag didn't follow the ``` <ul> ``` tag. I corrected this throughout all of the html files.
+A few small errors found, mainly with spacing. The biggest error found was in the footer of every page the `<li>` tag didn't follow the `<ul>` tag. I corrected this throughout all of the html files.
 Now when tested every page shows `No errors or warnings to show.`
 
 ## Deployment
