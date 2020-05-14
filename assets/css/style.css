@@ -1,217 +1,243 @@
-@import url('https://fonts.googleapis.com/css?family=Allura|Montserrat:100,200,300,400,500,600,700,800,900|Muli:200,300,400,500,600,700,800,900&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Allura|Montserrat:100,200,300,400,500,600,700,800,900|Muli:200,300,400,500,600,700,800,900&display=swap");
 
 /* ------------------------------------------------------ Text/Font */
 
+/* Header text */
+
 .header-banner--text {
-    font-family: "Montserrat", sans-serif;
-    font-weight: 200;
-    font-size: 40px;
-    word-spacing: -10px;
-    letter-spacing: 5px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 200;
+  font-size: 40px;
+  word-spacing: -10px;
+  letter-spacing: 5px;
 }
 
 .header-banner--photography-text {
-    font-family: "Allura", sans-serif;
-        letter-spacing: -1px;
+  font-family: "Allura", sans-serif;
+  letter-spacing: -1px;
 }
 
 a.nav-link {
-    font-family: "Montserrat", sans-serif;
-    font-size: 18px;
-    letter-spacing: 2px;
-    text-transform: lowercase;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  letter-spacing: 2px;
+  text-transform: lowercase;
 }
+
+/* Footer text */
 
 .footer-text {
-    font-family: "Montserrat", sans-serif;
-    font-size: 18px;
-    letter-spacing: 2px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  letter-spacing: 2px;
 }
 
+/* Home Page Title text */
+
 .selling-title {
-    font-family: "Muli", sans-serif;
-    font-size: 48px;
-    word-spacing: -5px;
+  font-family: "Muli", sans-serif;
+  font-size: 48px;
+  word-spacing: -5px;
 }
 
 .bands-gigs-title,
 .album-artwork-title,
 .portraits-title,
 .page-heading {
-    font-family: "Muli", sans-serif;
-    font-size: 60px;
-    word-spacing: -5px;
+  font-family: "Muli", sans-serif;
+  font-size: 60px;
+  word-spacing: -5px;
 }
 
-
 .selling-paragraph {
-    font-family: "Montserrat", sans-serif;
-    font-size: 24px;
-    letter-spacing: 2px;
-    word-spacing: 1px;
-    font-weight: 100;
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  letter-spacing: 2px;
+  word-spacing: 1px;
+  font-weight: 100;
 }
 
 @media (min-width: 768px) {
-    .selling-paragraph {
-        font-size: 36px;
-    }
-    .selling-title {
-        font-size: 60px;
-    }
-    .bands-gigs-title,
-    .album-artwork-title,
-    .portraits-title,
-    .page-heading {
-        font-size: 72px;
-    }
+  .selling-paragraph {
+    font-size: 36px;
+  }
+  .selling-title {
+    font-size: 60px;
+  }
+  .bands-gigs-title,
+  .album-artwork-title,
+  .portraits-title,
+  .page-heading {
+    font-size: 72px;
+  }
 }
 
+/* Home Page Reviews text */
+
 .blockquote.reviews-text {
-    font-family: "Montserrat", sans-serif;
-    font-size: 24px;
-    letter-spacing: 2px;
-    word-spacing: 1px;
-    font-weight: 200;
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  letter-spacing: 2px;
+  word-spacing: 1px;
+  font-weight: 200;
 }
+
+/* About and Contact text */
 
 .about-me-text,
 .contact-text,
 .contact-form {
-    font-family: "Montserrat", sans-serif;
-    font-size: 20px;
-    word-spacing: 1px;
-    font-weight: 200;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  word-spacing: 1px;
+  font-weight: 200;
 }
 
+/* Contact text */
+
 i.far.fa-envelope {
-    font-size: 60px;
-    font-weight: 100;
+  font-size: 60px;
+  font-weight: 100;
 }
 
 .contact-form--submit {
-    font-family: "Montserrat", sans-serif;
-    font-size: 18px;
-    letter-spacing: 2px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  letter-spacing: 2px;
 }
 
 /* ------------------------------------------------------ Color */
 
+/* Header */
+
 .header-banner--text {
-   color:rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
 }
 
 .header-banner--text:hover {
-    color: rgba(255,255,255,0.75);
-    text-decoration: none;
+  color: rgba(255, 255, 255, 0.75);
+  text-decoration: none;
 }
+
+/* Home page  Titles */
 
 .selling-title,
 .selling-paragraph,
 .bands-gigs-title,
 .album-artwork-title,
 .portraits-title {
-    color: rgb(161, 163, 166)
+  color: rgb(161, 163, 166);
 }
 
 .selling-paragraph,
 .selling-title {
-    background-color: rgba(0, 0, 0, 0.6)
+  background-color: rgba(0, 0, 0, 0.6);
 }
+
+/* All pages background */
 
 .pages-bg,
 .reviews-bg {
- background-color: rgb(200, 200, 200);
+  background-color: rgb(200, 200, 200);
 }
 
+/* Footer */
+
 .footer-bg {
-    background-color:rgb(52, 58, 64);
+  background-color: rgb(52, 58, 64);
 }
 
 .footer-copyright-text,
 .footer-social-links,
 .footer-location-text {
-    color: rgb(161, 163, 166)
+  color: rgb(161, 163, 166);
 }
 
 .footer-social-links:hover,
 .footer-location-text:hover {
-    color: rgba(255,255,255,0.75);
-    text-decoration: none;
+  color: rgba(255, 255, 255, 0.75);
+  text-decoration: none;
 }
 
+/* About Portfolio Contact Header text and horizontal rule */
+
 .page-heading {
-    color: rgb(52, 58, 64)
+  color: rgb(52, 58, 64);
 }
 
 .hr-gray {
-    border: 0.5px solid rgb(52, 58, 64);
+  border: 0.5px solid rgb(52, 58, 64);
 }
 
+/* Portfolio Modal */
+
 div.modal-content {
-    background: none;
-    border: none;
+  background: none;
+  border: none;
 }
 
 div#portfolioModal.modal.fade.show {
-    background-color: rgba(0, 0, 0, 0.6);
-}
-
-input.form-control,
-textarea.form-control {
-    border-color: rgb(52, 58, 64);
+  background-color: rgba(0, 0, 0, 0.6);
 }
 
 /* Modal close button */
+
 button.close {
-    color: rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
 }
 
 button.close:hover {
-    color: #fff;
-    text-decoration: none;
+  color: #fff;
+  text-decoration: none;
 }
 
 button.close:focus {
-    outline: none;
+  outline: none;
+}
+
+/* Contact form */
+
+input.form-control,
+textarea.form-control {
+  border-color: rgb(52, 58, 64);
 }
 
 /* ------------------------------------------------------ Header */
 
 .header-banner {
-    background: url("../images/charlie.jpg") center 42% no-repeat;
-    height: 200px;
-    background-size: cover;
+  background: url("../images/charlie.jpg") center 42% no-repeat;
+  height: 200px;
+  background-size: cover;
 }
 
 @media (min-width: 576px) {
-.container-fluid.header-banner {
+  .container-fluid.header-banner {
     padding-left: 30px;
-}
+  }
 }
 
 /* ------------------------------------------------------ Navbar */
 
 nav.navbar {
-    padding-right: 0;
-    padding-left: 0;
+  padding-right: 0;
+  padding-left: 0;
 }
 
 .navbar-toggler {
-    margin: 2px auto;
+  margin: 2px auto;
 }
 
 button.navbar-toggler {
-    border: none;
+  border: none;
 }
 
 button.navbar-toggler:focus {
-    outline: none;
+  outline: none;
 }
 
 a.nav-link {
-    margin-right: 20px;
-    margin-left: 20px; 
+  margin-right: 20px;
+  margin-left: 20px;
 }
 
 /* ------------------------------------------------------ Home */
@@ -220,264 +246,262 @@ a.nav-link {
 .bands-gigs-bg,
 .portraits-bg,
 .album-artwork-bg {
-    margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 .selling-bg {
-    min-height: 60vh;
-    display: flex;
-    align-items: center;
+  min-height: 60vh;
+  display: flex;
+  align-items: center;
 }
 
 /* Found issue on iOS with background-attachment: fixed. Found solution to fix this on https://github.com/thesved/fixed-cover-background. */
 
-.selling-bg:after{
-      content:"";
-      position:fixed; /* stretch a fixed position to the whole screen */
-      top:0;
-      height:100vh; /* fix for mobile browser address bar appearing disappearing */
-      left:0;
-      right:0;
-      z-index: -1;  /* needed to keep in the background */
-      background: url("../images/sinka-oneils.jpg") center top no-repeat;
-      -webkit-background-size: cover;
-      -moz-background-size: cover;
-      -o-background-size: cover;
-      background-size: cover;
+.selling-bg:after {
+  content: "";
+  position: fixed; /* stretch a fixed position to the whole screen */
+  top: 0;
+  height: 100vh; /* fix for mobile browser address bar appearing disappearing */
+  left: 0;
+  right: 0;
+  z-index: -1; /* needed to keep in the background */
+  background: url("../images/sinka-oneils.jpg") center top no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 /* All code between this and the comment above is not my own work, it has been found and used from https://github.com/thesved/fixed-cover-background
 to fix an error on iOS devices. I have modified it slightly but do not claim this as my own */
 
 .selling-paragraph {
-    margin-bottom: 16px;
+  margin-bottom: 16px;
 }
 
 .selling-title {
-    hyphens: none;
-    -webkit-hyphens: none;
-    -moz-hyphens: none;
-    margin-bottom: 0;
-    margin-top: 16px;
+  hyphens: none;
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  margin-bottom: 0;
+  margin-top: 16px;
 }
 
 @media (min-width: 768px) {
-    .container-fluid.selling-bg {
-        padding: 0 20%;
-    }
+  .container-fluid.selling-bg {
+    padding: 0 20%;
+  }
 }
 
-
-@media (max-width: 319px) { 
-    .selling-title {
-        hyphens: manual;
-        -webkit-hyphens: manual;
-        -moz-hyphens: manual;
-    }
+@media (max-width: 319px) {
+  .selling-title {
+    hyphens: manual;
+    -webkit-hyphens: manual;
+    -moz-hyphens: manual;
+  }
 }
 
 div.col-12 {
-    padding-left: 0;
-    padding-right: 0;
+  padding-left: 0;
+  padding-right: 0;
 }
 
 .bands-gigs-bg {
-    background: url("../images/sinka-camden.jpg") right center no-repeat;
-    min-height: 60vh;
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    justify-content: center;
-    position: relative;
+  background: url("../images/sinka-camden.jpg") right center no-repeat;
+  min-height: 60vh;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  justify-content: center;
+  position: relative;
 }
 
 .album-artwork-bg {
-    background: url("../images/islands.jpg") center bottom no-repeat;
-    min-height: 60vh;
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-}
-.portraits-bg {
-    background: url("../images/katie.jpg") 46% 35% no-repeat;
-    min-height: 60vh;
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
+  background: url("../images/islands.jpg") center bottom no-repeat;
+  min-height: 60vh;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
 }
 
-@media (min-width: 992px) { 
-    .portraits-bg {
-        height: 80vh;
-    }
+.portraits-bg {
+  background: url("../images/katie.jpg") 46% 35% no-repeat;
+  min-height: 60vh;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+
+@media (min-width: 992px) {
+  .portraits-bg {
+    height: 80vh;
+  }
 }
 
 .bands-gigs-title,
 .album-artwork-title,
 .portraits-title {
-    margin: 16px;
+  margin: 16px;
 }
 
 /* ------------------------------------------------------ Reviews */
 
-
 .reviews-inner {
-    display: flex;
-    align-items: center;
-    min-height: 60vh;
+  display: flex;
+  align-items: center;
+  min-height: 60vh;
 }
 
-@media (min-width: 576px) { 
-    .reviews-inner {
-        min-height: 40vh;
-    }
+@media (min-width: 576px) {
+  .reviews-inner {
+    min-height: 40vh;
+  }
 }
 
 .reviews-text {
-    padding: 0 12px;
+  padding: 0 12px;
 }
 .carousel-control-next {
-    right: -10px;
+  right: -10px;
 }
 
 .carousel-control-prev {
-    left: -10px;
+  left: -10px;
 }
+
 /* ------------------------------------------------------ Portfolio */
 
 .page-heading {
-    margin: 16px 0;
+  margin: 16px 0;
 }
 
 .hr-under-heading {
-    width: 30%;
-    border-radius: 0.5px;
+  width: 30%;
+  border-radius: 0.5px;
 }
 
 .col-sm-6.col-md-4.col-lg-3.col-image-size {
-    padding: 0 6px;
+  padding: 0 6px;
 }
 
 .portfolio-img,
 .portfolio-img--carousel {
-    border-radius: 16px;
-    margin: 6px 0;
+  border-radius: 16px;
+  margin: 6px 0;
 }
 
 .portfolio-img--carousel {
-    max-height: 80vh;
-    object-fit: cover;
+  max-height: 80vh;
+  object-fit: cover;
 }
 
 #sinka-shoot-7 {
-    object-position: center 30%;
+  object-position: center 30%;
 }
 
 button.close {
-    position: absolute;
-    top: -50px;
-    right: 0;
-    font-size: 30px;
+  position: absolute;
+  top: -50px;
+  right: 0;
+  font-size: 30px;
 }
 
 .portfolio-img--bottom {
-    object-position: bottom;
+  object-position: bottom;
 }
 
 @media (max-width: 576px) {
-.portfolio-img {
+  .portfolio-img {
     max-height: 30vh;
     width: fit-content;
     object-fit: cover;
-}
+  }
 }
 
 @media (min-width: 576px) {
-.portfolio-img {
+  .portfolio-img {
     max-height: 155px;
     width: fit-content;
     object-fit: cover;
-}
+  }
 }
 
 @media (min-width: 768px) {
-.portfolio-img {
+  .portfolio-img {
     max-height: 135px;
     width: fit-content;
     object-fit: cover;
-}
+  }
 }
 
 @media (min-width: 1200px) {
-.portfolio-img {
+  .portfolio-img {
     max-height: 165px;
     width: fit-content;
     object-fit: cover;
+  }
 }
-}
-
 
 /* ------------------------------------------------------ About Me */
 
 #about-me-img {
-    border-radius: 50%;
-    max-width: 100%;
-    max-height: 400px;
-    object-fit: cover;
-    padding: 16px;
+  border-radius: 50%;
+  max-width: 100%;
+  max-height: 400px;
+  object-fit: cover;
+  padding: 16px;
 }
 
 .about-me-text {
-    margin: 12px;
+  margin: 12px;
 }
 
 @media (min-width: 1200px) {
-    #about-me-text--left {
-        text-align: right;
-        float: right;
-        width: 85%;
-    }
-    #about-me-text--right {
-        text-align: left;
-        width: 85%;
-    }
-    #about-me-img {
-        border-radius: 0;
-        max-width: 100%;
-        height: 60vh;
-        object-fit: cover;
-        padding: 10%;
-        max-height: none;
-        object-position: 40%;
-    }
+  #about-me-text--left {
+    text-align: right;
+    float: right;
+    width: 85%;
+  }
+  #about-me-text--right {
+    text-align: left;
+    width: 85%;
+  }
+  #about-me-img {
+    border-radius: 0;
+    max-width: 100%;
+    height: 60vh;
+    object-fit: cover;
+    padding: 10%;
+    max-height: none;
+    object-position: 40%;
+  }
 }
 
 /* ------------------------------------------------------ Contact */
 
 .contact-form {
-    padding-bottom: 15px;
+  padding-bottom: 15px;
 }
 
 .contact-text {
-    padding-top: 16px;
+  padding-top: 16px;
 }
 
 @media (min-width: 768px) {
-    .form-group--small {
+  .form-group--small {
     max-width: 50vw;
     margin: auto;
-    }
+  }
 }
 @media (min-width: 992px) {
-    .form-group--small {
+  .form-group--small {
     max-width: 40vw;
     margin: auto;
-    }
+  }
 }
-
 
 /* ------------------------------------------------------ Footer */
 
@@ -486,37 +510,37 @@ https://www.freecodecamp.org/news/how-to-keep-your-footer-where-it-belongs-59c6a
 adapted for my pages but not my own work. */
 
 .page-container {
-    position: relative;
-    min-height: 100vh;
+  position: relative;
+  min-height: 100vh;
 }
 
 .content-container {
-    padding-bottom: 137px;
+  padding-bottom: 137px;
 }
 
 .footer-bottom {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 137px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 137px;
 }
 
 @media (min-width: 992px) {
-    .footer-bottom {
+  .footer-bottom {
     height: 102px;
-}
-.content-container {
+  }
+  .content-container {
     padding-bottom: 102px;
-}
+  }
 }
 
 @media (max-width: 371px) {
-    .footer-bottom {
+  .footer-bottom {
     height: 164px;
-}
-.content-container {
+  }
+  .content-container {
     padding-bottom: 164px;
-}
+  }
 }
 
 /* The above code was found here - 
@@ -524,41 +548,40 @@ https://www.freecodecamp.org/news/how-to-keep-your-footer-where-it-belongs-59c6a
 adapted for my pages. */
 
 footer.container-fluid {
-    padding: 16px 0;
+  padding: 16px 0;
 }
 
 .footer-copyright-text {
-    margin: 0;
+  margin: 0;
 }
 
-
 .col-lg-6 ul.list-inline {
-    margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 li.list-inline-item {
-    padding: 0 8px;
+  padding: 0 8px;
 }
 
 div.footer-row {
-    margin: 0;
+  margin: 0;
 }
 
 @media (min-width: 992px) {
-.copyright-text-col {
+  .copyright-text-col {
     margin-top: 16px;
-}
+  }
 }
 
 @media (max-width: 992px) {
-.copyright-text-col,
-.social-links-col {
+  .copyright-text-col,
+  .social-links-col {
     margin-top: 12px;
-}
+  }
 }
 
 @media (min-width: 992px) {
-footer.container-fluid {
+  footer.container-fluid {
     padding: 16px 100px;
-}
+  }
 }
