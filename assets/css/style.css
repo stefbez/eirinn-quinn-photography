@@ -202,6 +202,12 @@ textarea.form-control {
   border-color: rgb(52, 58, 64);
 }
 
+input.form-control:focus,
+textarea.form-control:focus {
+  border-color: rgb(161, 163, 166);
+  box-shadow: 0 0 0 0.2rem rgb(161, 163, 166);
+}
+
 /* ------------------------------------------------------ Header */
 
 .header-banner {
