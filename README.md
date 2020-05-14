@@ -29,7 +29,7 @@ These user stories justify every section of the site and forced a slight change 
 
 ### Mockups
 
-
+Mockups created as the first stage of planning the website can be found (here)[/mockups/mockups.pdf]
 
 ## Features
 
@@ -49,7 +49,7 @@ These user stories justify every section of the site and forced a slight change 
 
 ## Testing
 
-Once the [home page](https://stefbez.github.io/milestone-project-1/index.html) had been completed I tested it on multiple devices. 
+Once the [home page](https://stefbez.github.io/eirinn-quinn-photography/index.html) had been completed I tested it on multiple devices. 
 I work on a mac using OS X and the deployment of the website worked exactly as expected.
 I opened the webpage on android phone and it worked as expected. When I opened it on an iPhone I came across an issue with the `selling-bg` image. 
 After a bit of research I found that there is a known issue with iOS displaying `background-attachment: fixed`.
@@ -57,6 +57,10 @@ I found a solution for this issue at (https://github.com/thesved/fixed-cover-bac
 After reading and understanding what they had done to fix the issue I implemented their code and modified it slightly to work with my site. 
 I do not take credit for their work and have noted this in my css document around the code and in the credits section of the README.md document.
 The other option instead of keeping the same feature, so that it would display in an aesthetically pleasing way would be to remove `background-attachment: fixed` all togther.
+
+Testing the home page once completed, the word 'photography' was still hyphenating on iPhone X and other mobile sized screens when using safari. Added ```-webkit-``` and ```-moz-``` variants so that it would work as expected on safari and firefox.
+
+Tested all HTML pages and CSS on the (HTML validator website)[https://validator.w3.org/] and (CSS validator website)[http://www.css-validator.org/].
 
 ## Deployment
 
@@ -85,10 +89,18 @@ The website can be found on the link at the top of the page and [here](https://s
 }
 ```
 
-* The footer needed to be pushed down to the bottom on some screen sizes, such as iPad pro. I found a way to do this through some research online and used 
-[https://www.freecodecamp.org/news/how-to-keep-your-footer-where-it-belongs-59c6aa05c59c/](https://www.freecodecamp.org/news/how-to-keep-your-footer-where-it-belongs-59c6aa05c59c/)
-to fix this issue. The code used from this website is not my own work, but a solution to a problem I was having.
+* The footer needed to be pushed down to the bottom on some screen sizes, such as iPad pro. I found a way to do this through some research online and used [https://www.freecodecamp.org/news/how-to-keep-your-footer-where-it-belongs-59c6aa05c59c/](https://www.freecodecamp.org/news/how-to-keep-your-footer-where-it-belongs-59c6aa05c59c/) to fix this issue. The code used from this website is not my own work, but a solution to a problem I was having.
+
+* (Bootstrap)[https://getbootstrap.com/docs/4.4/getting-started/introduction/] was used throughout the site, including the (carousel)[https://getbootstrap.com/docs/4.2/components/carousel/] for the home and portfolio page; (modal)[https://getbootstrap.com/docs/4.4/components/modal/] for the portfolio page and the (forms)[https://getbootstrap.com/docs/4.4/components/forms/] and (submit button)[https://getbootstrap.com/docs/4.4/components/buttons/] on the contact page.
+
+* (Font Awesome)[https://fontawesome.com/icons?d=gallery] icons were used in the footer of every page and the envelope icon on the contact page
+
+* The CDN's for Bootstrap and Font Awesome were found (here)[https://www.bootstrapcdn.com/]
 
 ### Media
 
 * All images were taken and are owned by Eirinn Quinn, who gave me the inspiration to make the website
+
+### Acknowledgements
+
+* I received inspiration from (Two-D Photography's website)[https://www.two-d.co.uk/]
