@@ -53,11 +53,12 @@ Mockups created as the first stage of planning the website can be found [here](/
 
 ## Technologies Used
 
-* [HTML](https://en.wikipedia.org/wiki/HTML) - Makes up the basis for the page. All of the visible text, the images in the gallery and the forms on the contact page.
-* [CSS](https://en.wikipedia.org/wiki/Cascading_Style_Sheets) - Styling for the whole site, from backgrounds to text fonts, sizes and colors. Spacing throughout the site, animations and color changes on hover and click.
-* [Bootstrap 4.4.1](https://getbootstrap.com/docs/4.0/getting-started/introduction/) - The framework that provides basic styling and objects that I built upon. Especially useful on the portfolio page where i utilised Bootstrap's modal and carousel features.
-* [Font Awesome](https://fontawesome.com/icons?d=gallery) - Provided the social links on the footer and the envelope on the contact page. Easy to recognise icons that take away the need for lengthy names of social media pages.
-* [Google Fonts](https://fonts.google.com/) - Chose the fonts carefully from Google Fonts and embedded them to the CSS page and used the throughout the site.
+* [HTML](https://en.wikipedia.org/wiki/HTML) - Makes up the basis for the page. All of the visible text, the images in the gallery and the forms on the contact page
+* [CSS](https://en.wikipedia.org/wiki/Cascading_Style_Sheets) - Styling for the whole site, from backgrounds to text fonts, sizes and colors. Spacing throughout the site, animations and color changes on hover and click
+* [Bootstrap 4.4.1](https://getbootstrap.com/docs/4.0/getting-started/introduction/) - The framework that provides basic styling and objects that I built upon. Especially useful on the portfolio page where i utilised Bootstrap's modal and carousel features
+* [Font Awesome](https://fontawesome.com/icons?d=gallery) - Provided the social links on the footer and the envelope on the contact page. Easy to recognise icons that take away the need for lengthy names of social media pages
+* [Google Fonts](https://fonts.google.com/) - Chose the fonts carefully from Google Fonts and embedded them to the CSS page and used the throughout the site
+* [Google Maps](https://www.google.co.uk/maps/) - Embedded a map into the contact page which allows users to browse a map of the location of the showroom witihin the site. Also included a link in the footer allowing users to view the photographers location on the google maps website
 
 ## Testing
 
@@ -181,11 +182,11 @@ I followed this handy guide by [GitHub](https://help.github.com/en/github/workin
 }
 ```
 
-* The footer needed to be pushed down to the bottom on some screen sizes, such as iPad pro. I found a way to do this through some research online and used [https://www.freecodecamp.org/news/how-to-keep-your-footer-where-it-belongs-59c6aa05c59c/](https://www.freecodecamp.org/news/how-to-keep-your-footer-where-it-belongs-59c6aa05c59c/) to fix this issue. The code used from this website is not my own work, but a solution to a problem I was having.
+* The footer needed to be pushed down to the bottom on some screen sizes, such as iPad pro. I found a way to do this through some research online and used [https://www.freecodecamp.org/news/how-to-keep-your-footer-where-it-belongs-59c6aa05c59c/](https://www.freecodecamp.org/news/how-to-keep-your-footer-where-it-belongs-59c6aa05c59c/) to fix this issue. The code used from this website is not my own work, but a solution to a problem I was having
 
 * The info and code needed to hyphenate the word 'Photography' on the home page was found here [https://developer.mozilla.org/en-US/docs/Web/CSS/hyphens](https://developer.mozilla.org/en-US/docs/Web/CSS/hyphens)
 
-* [Bootstrap](https://getbootstrap.com/docs/4.4/getting-started/introduction/) was used throughout the site, including the [carousel](https://getbootstrap.com/docs/4.2/components/carousel/) for the home and portfolio page; [modal](https://getbootstrap.com/docs/4.4/components/modal/) for the portfolio page and the [forms](https://getbootstrap.com/docs/4.4/components/forms/) and [submit button](https://getbootstrap.com/docs/4.4/components/buttons/) on the contact page.
+* [Bootstrap](https://getbootstrap.com/docs/4.4/getting-started/introduction/) was used throughout the site, including the [carousel](https://getbootstrap.com/docs/4.2/components/carousel/) for the home and portfolio page; [modal](https://getbootstrap.com/docs/4.4/components/modal/) for the portfolio page and the [forms](https://getbootstrap.com/docs/4.4/components/forms/) and [submit button](https://getbootstrap.com/docs/4.4/components/buttons/) on the contact page
 
 * [Font Awesome](https://fontawesome.com/icons?d=gallery) icons were used in the footer of every page and the envelope icon on the contact page
 
