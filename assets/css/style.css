@@ -400,7 +400,7 @@ div.col-12 {
   left: -10px;
 }
 
-/* ------------------------------------------------------ Portfolio */
+/* ------------------------------------------------------ Page Headings */
 
 .page-heading {
   margin: 16px 0;
@@ -409,6 +409,12 @@ div.col-12 {
 .hr-under-heading {
   width: 30%;
   border-radius: 0.5px;
+}
+
+/* ------------------------------------------------------ Portfolio */
+
+.portfolio-container {
+    padding-bottom: 16px;
 }
 
 .col-sm-6.col-md-4.col-lg-3.col-image-size {
