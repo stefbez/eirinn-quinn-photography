@@ -106,6 +106,16 @@ i.far.fa-envelope {
   letter-spacing: 2px;
 }
 
+.contact-links {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.contact-links:hover {
+    color: rgb(161, 163, 166);
+    text-decoration: none;
+}
+
 /* ------------------------------------------------------ Color */
 
 /* Header */
@@ -187,7 +197,7 @@ button.close {
 }
 
 button.close:hover {
-  color: #fff;
+  color:  rgb(255, 255, 255);
   text-decoration: none;
 }
 
@@ -206,6 +216,12 @@ input.form-control:focus,
 textarea.form-control:focus {
   border-color: rgb(161, 163, 166);
   box-shadow: 0 0 0 0.2rem rgb(161, 163, 166);
+}
+
+.contact-info-col {
+    background-color: rgb(52, 58, 64);
+    box-shadow: -10px -10px rgb(161, 163, 166);
+    color: rgb(255, 255, 255);
 }
 
 /* ------------------------------------------------------ Header */
@@ -488,6 +504,11 @@ button.close {
 
 /* ------------------------------------------------------ Contact */
 
+.row.contact-row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
 .contact-form {
   padding-bottom: 15px;
 }
@@ -508,6 +529,30 @@ button.close {
     margin: auto;
   }
 }
+
+.contact-map {
+    border: 0;
+    width: 70%;
+    height: 250px;
+}
+
+.col-xl-6.contact-form-col,
+.col-xl-6.contact-info-col {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.contact-info-col {
+    background-color: rgb(52, 58, 64);
+    padding: 10px;
+    box-shadow: -10px -10px rgb(161, 163, 166);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-right: 0px;
+    padding-left: 0px;
+    color: white;
+}
+
 
 /* ------------------------------------------------------ Footer */
 

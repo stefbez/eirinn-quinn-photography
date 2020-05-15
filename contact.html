@@ -73,61 +73,100 @@
         <div class="container">
           <div class="text-center">
             <i class="far fa-envelope"></i>
-            <p class="contact-text">
+          </div>
+        </div>
+        <div class="container-fluid">
+        <div class="row contact-row">
+        <!-- Contact form -->
+
+          <div class="col-12 col-xl-6 contact-form-col">
+            <p class="contact-text text-center">
               Please feel free to contact me regarding any work, I endevour to
               get back to you within 3 working days.
             </p>
+
+            
+
+            <div class="container">
+              <form class="contact-form">
+                <div class="form-group form-group--small">
+                  <label class="text-center w-100" for="name">Name</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="name"
+                    placeholder="Name"
+                    required
+                  />
+                </div>
+                <div class="form-group form-group--small">
+                  <label class="text-center w-100" for="email"
+                    >Email Address</label
+                  >
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="email"
+                    placeholder="name@example.com"
+                    required
+                  />
+                </div>
+                <div class="form-group form-group--small">
+                  <label class="text-center w-100" for="phone"
+                    >Phone Number</label
+                  >
+                  <input
+                    type="tel"
+                    class="form-control"
+                    id="phone"
+                    placeholder="07123456789"
+                  />
+                </div>
+                <div class="form-group">
+                  <label class="text-center w-100" for="event-text"
+                    >Details of booking and any questions</label
+                  >
+                  <textarea
+                    class="form-control"
+                    id="event-text"
+                    rows="5"
+                  ></textarea>
+                </div>
+                <button
+                  type="submit"
+                  class="contact-form--submit btn btn-dark mx-auto d-block"
+                >
+                  Submit
+                </button>
+              </form>
+            </div>
+          </div>
+          <!-- Contact info -->
+          <div class="col-12 col-xl-6 text-center contact-text contact-info-col">
+            <p>Alternatively, contact me directly on</p>
+            <p>tel: <a class="contact-links" href="tel:07987654321">07987654321</a></p>
+            <p>
+            by email at
+              <a class="contact-links" href="mailto:eirinn@quinn.com"
+                >eirinn@quinn.com</a
+              >
+            </p>
+            <p>
+              Or visit me at my photography showroom<br />
+              42 High Street<br />
+              Pinner<br />
+              HA5 5PJ
+            </p>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d619.6435839826484!2d-0.3807870707282175!3d51.59436433185572!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48766cab73e811cb%3A0xfe560473a753e423!2s52-40%20High%20St%2C%20Pinner!5e0!3m2!1sen!2suk!4v1589546593510!5m2!1sen!2suk"
+              frameborder="0"
+              allowfullscreen=""
+              aria-hidden="false"
+              tabindex="0"
+              class="contact-map"
+            ></iframe>
           </div>
         </div>
-        <!-- Contact form -->
-        <div class="container">
-          <form class="contact-form">
-            <div class="form-group form-group--small">
-              <label class="text-center w-100" for="name">Name</label>
-              <input
-                type="text"
-                class="form-control"
-                id="name"
-                placeholder="Name"
-                required
-              />
-            </div>
-            <div class="form-group form-group--small">
-              <label class="text-center w-100" for="email">Email Address</label>
-              <input
-                type="email"
-                class="form-control"
-                id="email"
-                placeholder="name@example.com"
-                required
-              />
-            </div>
-            <div class="form-group form-group--small">
-              <label class="text-center w-100" for="phone">Phone Number</label>
-              <input
-                type="tel"
-                class="form-control"
-                id="phone"
-                placeholder="07123456789"
-              />
-            </div>
-            <div class="form-group">
-              <label class="text-center w-100" for="event-text"
-                >Details of booking and any questions</label
-              >
-              <textarea
-                class="form-control"
-                id="event-text"
-                rows="5"
-              ></textarea>
-            </div>
-            <button
-              type="submit"
-              class="contact-form--submit btn btn-dark mx-auto d-block"
-            >
-              Submit
-            </button>
-          </form>
         </div>
       </div>
       <!-- Footer -->
