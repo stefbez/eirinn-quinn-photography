@@ -6,13 +6,13 @@ The project can be found [here](https://stefbez.github.io/eirinn-quinn-photograp
 
 As part of the Code Institute Full Stack Developer Diploma I have created this website using all of the technologies learnt throughout the course so far.
 
-This website showcases the very best work of a talented band photographer, Eirinn Quinn. This website has been created so that bands looking for a photographer for their upcoming gigs and concerts, album artwork or looking to do a photoshoot and get portaits done can see her work and book her to work with them.
+This website showcases the very best work of a talented band photographer, Eirinn Quinn. This website has been created so that bands looking for a photographer for their upcoming gigs and concerts, album artwork or looking to do a photoshoot and portraits, can see her work and book her to work with them.
 
 The website has been created with her photography style in mind, lots of moody, black and white, and darker images are on show and the style of the website matches that perfectly.
 
 ## UX
 
-The UX process was vital to creating a good website that could do it's designed purpose perfectly. The purpose of the project from the photographers side was to show off the types of photography that she does, to show off her best work and to be contactable for work. With all of this in mind the users experience and expectations could be guaged. 
+The UX process was vital to creating a good website that could do it's designed purpose perfectly. The purpose of the project from the photographers side was to show off the types of photography that she does, to show off her best work and to be contactable for work. With all of this in mind the users experience and expectations could be gauged. 
 
 I used trello to create user stories that are relevant to what each type of user expects and wants from this type of website. The aim is to please every user that visits this site, make it easy to use and ultimately make them interested enough in the photographer's work that they get in contact.
 
