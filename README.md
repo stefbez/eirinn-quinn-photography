@@ -69,7 +69,7 @@ After a bit of research I found that there is a known issue with iOS displaying 
 I found a solution for this issue at [https://github.com/thesved/fixed-cover-background](https://github.com/thesved/fixed-cover-background). 
 After reading and understanding what they had done to fix the issue I implemented their code and modified it slightly to work with my site. 
 I do not take credit for their work and have noted this in my css document around the code and in the credits section of the README.md document.
-The other option instead of keeping the same feature, so that it would display in an aesthetically pleasing way would be to remove `background-attachment: fixed` all togther.
+The other option, instead of keeping the same feature, so that it would display in an aesthetically pleasing way would be to remove `background-attachment: fixed` all togther.
 
 Images found to be taking a while to load across the whole site. Reduced the image sizes and re-uploaded them into the project. Tested again and found they load much quicker, viewing the website now doesnt require a wait.
 
