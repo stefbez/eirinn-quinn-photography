@@ -59,7 +59,6 @@ Mockups created as the first stage of planning the website can be found [here](/
 * [Font Awesome](https://fontawesome.com/icons?d=gallery) - Provided the social links on the footer and the envelope on the contact page. Easy to recognise icons that take away the need for lengthy names of social media pages.
 * [Google Fonts](https://fonts.google.com/) - Chose the fonts carefully from Google Fonts and embedded them to the CSS page and used the throughout the site.
 
-
 ## Testing
 
 Once the [home page](https://stefbez.github.io/eirinn-quinn-photography/index.html) had been completed I tested it on multiple devices. 
@@ -71,19 +70,97 @@ After reading and understanding what they had done to fix the issue I implemente
 I do not take credit for their work and have noted this in my css document around the code and in the credits section of the README.md document.
 The other option instead of keeping the same feature, so that it would display in an aesthetically pleasing way would be to remove `background-attachment: fixed` all togther.
 
+Images found to be taking a while to load across the whole site. Reduced the image sizes and re-uploaded them into the project. Tested again and found they load much quicker, viewing the website now doesnt require a wait.
+
 Testing the home page once completed, the word 'photography' was still hyphenating on iPhone X and other mobile sized screens when using safari. Added `-webkit-` and `-moz-` variants so that it would work as expected on safari and firefox.
 
 Tested all HTML pages and CSS on the [HTML validator website](https://validator.w3.org/) and [CSS validator website](http://www.css-validator.org/). 
 A few small errors found, mainly with spacing. The biggest error found was in the footer of every page the `<li>` tag didn't follow the `<ul>` tag. I corrected this throughout all of the html files.
 Now when tested every page shows `No errors or warnings to show.`
 
+### Testing across multiple devices and browsers on completion
+
+Developed on a MacBook Pro using GitPod and checked throughout development on Chrome
+Tested on the following devices:
+
+* MacBook Pro 13" - Internet Explorer (using Safari developer tools), Safari, Chrome, Edge, Firefox, Opera
+* iPhone X - Safari, Chrome, Edge, Firefox, Opera
+* Samsung Galaxy A40 - Samsung Browser, Safari, Chrome, Edge, Firefox, Opera
+
+Multiple screen sizes were tested using Chrome developer tools on the MacBook, including Moto G4, Galaxy S5, Pixel 2, iPhone 5/SE, iPhone 6/7/8, iPhone 6/7/8 Plus, iPhone X, iPad, iPad Pro, Desktop and 4K TV screens.
+
+### Testing Process
+
+Testing involved using every feature available on each page across all devices and browsers. 
+
+* All pages
+    * The text (Eirinn Quinn Photography) in the heading linked back to the home page
+    * Navbar dropped down as expected (if smaller screen size) and all nav links worked and displayed as expected
+    * Footer location and social links work as expected
+    * Footer is at the bottom of the screen and displays as expected
+
+* Home Page
+    * First image is displaying as fixed when scrolling
+    * All images and text display as expected
+    * Caurousel displays and works as expected
+
+* About Page
+    * All text displays as expected
+    * Image displays as expected
+
+* Portfolio Page
+    * Text displays as expected
+    * All images display correctly on the main page and when clicked, appearing in the modal/carousel
+    * The carousel works correctly
+    * The modal close button works as intended
+
+* Contact Page
+    * All text displays as expected
+    * Forms allow text and dont allow submission until all required fields are filled
+    * Telephone and email links work, especially on mobile devices, launching phone or mail app
+    * Embedded map works correctly, is movable and launches the larger map when the link on it is pressed
+    * Box shadow displays correctly on the right screen size
+
+#### Issues found on devices and browsers
+
+Very few issues found across all devices, browsers and screen sizes. Images rendered well and all looked as expected and intended.
+
+Issues:
+
+* iPad pro view on chrome developer tools - Content on about, portfolio and contact pages too short to fill page so the footer wasn't displaying on the bottom of the page. **Fixed** this issue with help from this [site](https://www.freecodecamp.org/news/how-to-keep-your-footer-where-it-belongs-59c6aa05c59c/)
+* iPhone X - Opera, Edge & Firefox - When scrolling up images jumped as the browser taskbar reappeared - **This issue still remains**
+* iPhone X - Safari, Chrome, Edge, Firefox, Opera - On contact page when a required field isnt filled in and submit button is pressed the `fill in this field` prompt is off center. As it appears on all tested browsers it could be an iOS issue - **This issue still remains**
+* Samsung Galaxy A40 - Samsung Browser - Tall images displaying in the Portfolio page's modal carousel has its close button cut off slightly by the address bar at the top, still fully functional and able to be pressed - **This issue still remains**
+
 ## Deployment
 
+I used GitPod to develop the site and GitHub to host it.
+
 The website can be found on the link at the top of the page and [here](https://stefbez.github.io/eirinn-quinn-photography/). I deployed the project using GitHub Pages. At the moment the deployed version uses the master branch, but if future updates are needed these can be done using a separate branch until all updates are tested thoroughly and can be deployed.
+
+### Deployment using GitHub Pages
+
+1. Go to the [repository](https://github.com/stefbez/eirinn-quinn-photography)
+2. Under the repo name go to settings
+3. Scroll down to the GitHub Pages section
+4. Select a publishing source which is the master branch
+5. Check for confirmation text in a green banner saying `Your site is published at https://stefbez.github.io/eirinn-quinn-photography/`
+6. The site is now live on GitHub Pages
+
+I followed this handy guide by [GitHub](https://help.github.com/en/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site)
+
+### Clone Eirinn Quinn Photography
+
+1. Go to the [repository](https://github.com/stefbez/eirinn-quinn-photography)
+2. Click on the green `Clone or download` button
+3. Copy the URL - (https://github.com/stefbez/eirinn-quinn-photography.git)
+4. Using the terminal in GitPod paste the code `git clone https://github.com/stefbez/eirinn-quinn-photography.git`
+5. The whole repository folder, including all files is now available for use
 
 ## Credits
 
 ### Content
+
 * The below code in `style.css` was found at [https://github.com/thesved/fixed-cover-background](https://github.com/thesved/fixed-cover-background), used and edited to work with my page and to fix an error on iOS devices specified above.
 *I do not take credit for this work below and declare that it is not all my own work, but used as a solution for a common issue on iOS.*
 
