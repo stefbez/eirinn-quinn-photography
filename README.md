@@ -190,7 +190,9 @@ I followed this handy guide by [GitHub](https://help.github.com/en/github/workin
 
 * [Font Awesome](https://fontawesome.com/icons?d=gallery) icons were used in the footer of every page and the envelope icon on the contact page
 
-* The CDN's for Bootstrap and Font Awesome were found [here](https://www.bootstrapcdn.com/)
+* The CDN's for Bootstrap were found on [BootstrapCDN](https://www.bootstrapcdn.com/) and directly from [Bootstrap](https://getbootstrap.com/docs/4.4/getting-started/download/) 
+
+* The CDN for Font Awesome was found [here](https://fontawesome.com/how-to-use/customizing-wordpress/snippets/setup-cdn-webfont)
 
 * Fonts were found and embedded from [Google Fonts](https://fonts.google.com/)
 
