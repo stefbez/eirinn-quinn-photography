@@ -107,13 +107,13 @@ i.far.fa-envelope {
 }
 
 .contact-links {
-    color: rgb(255, 255, 255);
-    text-decoration: none;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
 }
 
 .contact-links:hover {
-    color: rgb(161, 163, 166);
-    text-decoration: none;
+  color: rgb(161, 163, 166);
+  text-decoration: none;
 }
 
 /* ------------------------------------------------------ Color */
@@ -197,7 +197,7 @@ button.close {
 }
 
 button.close:hover {
-  color:  rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
   text-decoration: none;
 }
 
@@ -219,15 +219,15 @@ textarea.form-control:focus {
 }
 
 .contact-info-col {
-    background-color: rgb(52, 58, 64);
-    box-shadow: 0px -10px 10px 0px rgb(161, 163, 166);
-    color: rgb(255, 255, 255);
+  background-color: rgb(52, 58, 64);
+  box-shadow: 0px -10px 10px 0px rgb(161, 163, 166);
+  color: rgb(255, 255, 255);
 }
 
 @media (min-width: 1200px) {
-.contact-info-col {
+  .contact-info-col {
     box-shadow: -10px -10px rgb(161, 163, 166);
-}
+  }
 }
 
 /* ------------------------------------------------------ Header */
@@ -511,8 +511,8 @@ button.close {
 /* ------------------------------------------------------ Contact */
 
 .row.contact-row {
-    margin-left: 0;
-    margin-right: 0;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 .contact-form {
@@ -529,6 +529,7 @@ button.close {
     margin: auto;
   }
 }
+
 @media (min-width: 992px) {
   .form-group--small {
     max-width: 40vw;
@@ -537,27 +538,26 @@ button.close {
 }
 
 .contact-map {
-    border: 0;
-    width: 80%;
-    height: 250px;
+  border: 0;
+  width: 80%;
+  height: 250px;
 }
 
 @media (min-width: 1200px) {
-.col-xl-6.contact-form-col,
-.col-xl-6.contact-info-col {
+  .col-xl-6.contact-form-col,
+  .col-xl-6.contact-info-col {
     padding-left: 20px;
     padding-right: 20px;
-}
+  }
 }
 
 .contact-info-col {
-    padding: 10px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    padding-right: 0px;
-    padding-left: 0px;
+  padding: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-right: 0px;
+  padding-left: 0px;
 }
-
 
 /* ------------------------------------------------------ Footer */
 
