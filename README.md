@@ -53,11 +53,12 @@ Mockups created as the first stage of planning the website can be found [here](/
 
 ## Technologies Used
 
-* HTML
-* CSS
-* Bootstrap 4.4.1
-* Font Awesome
-* Google Fonts
+* [HTML](https://en.wikipedia.org/wiki/HTML) - Makes up the basis for the page. All of the visible text, the images in the gallery and the forms on the contact page.
+* [CSS](https://en.wikipedia.org/wiki/Cascading_Style_Sheets) - Styling for the whole site, from backgrounds to text fonts, sizes and colors. Spacing throughout the site, animations and color changes on hover and click.
+* [Bootstrap 4.4.1](https://getbootstrap.com/docs/4.0/getting-started/introduction/) - The framework that provides basic styling and objects that I built upon. Especially useful on the portfolio page where i utilised Bootstrap's modal and carousel features.
+* [Font Awesome](https://fontawesome.com/icons?d=gallery) - Provided the social links on the footer and the envelope on the contact page. Easy to recognise icons that take away the need for lengthy names of social media pages.
+* [Google Fonts](https://fonts.google.com/) - Chose the fonts carefully from Google Fonts and embedded them to the CSS page and used the throughout the site.
+
 
 ## Testing
 
@@ -114,6 +115,8 @@ The website can be found on the link at the top of the page and [here](https://s
 * The CDN's for Bootstrap and Font Awesome were found [here](https://www.bootstrapcdn.com/)
 
 * Fonts were found and embedded from [Google Fonts](https://fonts.google.com/)
+
+* Map embedded on the contact page and linked to in the footer uses [Google Maps](https://www.google.co.uk/maps/)
 
 ### Media
 
