@@ -447,6 +447,10 @@ button.close {
   object-position: bottom;
 }
 
+.portfolio-img {
+  width: 100%;
+}
+
 @media (max-width: 576px) {
   .portfolio-img {
     max-height: 30vh;
