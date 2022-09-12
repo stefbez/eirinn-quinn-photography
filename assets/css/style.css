@@ -447,22 +447,16 @@ button.close {
   object-position: bottom;
 }
 
-.portfolio-img {
-  width: 100%;
-}
 
-@media (max-width: 576px) {
-  .portfolio-img {
+.portfolio-img {
+    width: 100%;
     max-height: 30vh;
-    width: fit-content;
     object-fit: cover;
   }
-}
 
 @media (min-width: 576px) {
   .portfolio-img {
     max-height: 155px;
-    width: fit-content;
     object-fit: cover;
   }
 }
@@ -470,7 +464,6 @@ button.close {
 @media (min-width: 768px) {
   .portfolio-img {
     max-height: 135px;
-    width: fit-content;
     object-fit: cover;
   }
 }
@@ -478,7 +471,6 @@ button.close {
 @media (min-width: 1200px) {
   .portfolio-img {
     max-height: 165px;
-    width: fit-content;
     object-fit: cover;
   }
 }
